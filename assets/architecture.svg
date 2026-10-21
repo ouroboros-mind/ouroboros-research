@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1020" height="640" viewBox="0 0 1020 640" role="img" aria-labelledby="t d">
+<title id="t">Ouroboros conceptual architecture</title>
+<desc id="d">A persistent Cognitive Kernel holds identity, memory, world model, self-model, competency map, workspace, System-1 and the Experience Bus. It reaches replaceable language models through the Mind ABI. A learning plane turns verified experience into memory, skills and adapters, and a protected evaluation plane outside the mind decides what is kept.</desc>
+<rect width="1020" height="640" rx="14" fill="#111816"/>
+<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#73877f"/></marker></defs>
+<text x="40" y="44" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" fill="#e6efec" text-anchor="start" font-weight="600" >Ouroboros: conceptual architecture</text>
+<text x="40" y="68" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#a9bbb5" text-anchor="start" font-weight="400" >The mind is durable. The cortex is replaceable.</text>
+<rect x="40" y="92" width="940" height="70" rx="10" fill="#132723" stroke="#1d5c51" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="60" y="120" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#e6efec" text-anchor="start" font-weight="600" >Protected evaluation plane</text>
+<text x="60" y="144" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#a9bbb5" text-anchor="start" font-weight="400" >Designed to be outside the mind's reach: held-out checks, regression and forgetting checks, rollback.</text>
+<rect x="40" y="200" width="640" height="230" rx="10" fill="#17211e" stroke="#2fb59a" stroke-width="1.5"/>
+<text x="60" y="228" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" fill="#e6efec" text-anchor="start" font-weight="600" >Persistent mind: the Cognitive Kernel</text>
+<text x="60" y="250" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#a9bbb5" text-anchor="start" font-weight="400" >Owned by the individual. Designed to survive a change of model.</text>
+<rect x="60" y="268" width="140" height="40" rx="8" fill="#1c2925" stroke="#2c3b36" stroke-width="1.5"/>
+<text x="130.0" y="293" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#e6efec" text-anchor="middle" font-weight="400" >Identity and lineage</text>
+<rect x="212" y="268" width="140" height="40" rx="8" fill="#1c2925" stroke="#2c3b36" stroke-width="1.5"/>
+<text x="282.0" y="293" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#e6efec" text-anchor="middle" font-weight="400" >Autobiographical memory</text>
+<rect x="364" y="268" width="140" height="40" rx="8" fill="#1c2925" stroke="#2c3b36" stroke-width="1.5"/>
+<text x="434.0" y="293" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#e6efec" text-anchor="middle" font-weight="400" >Semantic memory</text>
+<rect x="516" y="268" width="140" height="40" rx="8" fill="#1c2925" stroke="#2c3b36" stroke-width="1.5"/>
+<text x="586.0" y="293" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#e6efec" text-anchor="middle" font-weight="400" >Procedures and skills</text>
+<rect x="60" y="320" width="140" height="40" rx="8" fill="#1c2925" stroke="#2c3b36" stroke-width="1.5"/>
+<text x="130.0" y="345" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#e6efec" text-anchor="middle" font-weight="400" >World model</text>
+<rect x="212" y="320" width="140" height="40" rx="8" fill="#1c2925" stroke="#2c3b36" stroke-width="1.5"/>
+<text x="282.0" y="345" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#e6efec" text-anchor="middle" font-weight="400" >Self-model</text>
+<rect x="364" y="320" width="140" height="40" rx="8" fill="#1c2925" stroke="#2c3b36" stroke-width="1.5"/>
+<text x="434.0" y="345" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#e6efec" text-anchor="middle" font-weight="400" >Competency map</text>
+<rect x="516" y="320" width="140" height="40" rx="8" fill="#1c2925" stroke="#2c3b36" stroke-width="1.5"/>
+<text x="586.0" y="345" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#e6efec" text-anchor="middle" font-weight="400" >Global workspace</text>
+<rect x="60" y="372" width="140" height="40" rx="8" fill="#1c2925" stroke="#2c3b36" stroke-width="1.5"/>
+<text x="130.0" y="397" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#e6efec" text-anchor="middle" font-weight="400" >System-1 (fast choices)</text>
+<rect x="212" y="372" width="140" height="40" rx="8" fill="#1c2925" stroke="#2c3b36" stroke-width="1.5"/>
+<text x="282.0" y="397" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#e6efec" text-anchor="middle" font-weight="400" >Experience Bus</text>
+<rect x="760" y="200" width="220" height="230" rx="10" fill="#17211e" stroke="#2c3b36" stroke-width="1.5"/>
+<text x="780" y="228" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#e6efec" text-anchor="start" font-weight="600" >Learning and growth</text>
+<text x="780" y="252" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#a9bbb5" text-anchor="start" font-weight="400" >Turns verified experience</text>
+<text x="780" y="270" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#a9bbb5" text-anchor="start" font-weight="400" >into cheaper forms:</text>
+<text x="780" y="296" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#e6efec" text-anchor="start" font-weight="400" >memory</text>
+<text x="780" y="316" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#e6efec" text-anchor="start" font-weight="400" >procedures and skills</text>
+<text x="780" y="336" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#e6efec" text-anchor="start" font-weight="400" >neural adapters</text>
+<text x="780" y="362" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#a9bbb5" text-anchor="start" font-weight="400" >Nothing is kept unless</text>
+<text x="780" y="380" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#a9bbb5" text-anchor="start" font-weight="400" >the evaluation plane</text>
+<text x="780" y="398" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#a9bbb5" text-anchor="start" font-weight="400" >accepts it.</text>
+<path d="M682,262 C710,236 730,236 758,252" fill="none" stroke="#2fb59a" stroke-width="2" marker-end="url(#ah)"/>
+<text x="720" y="230" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#a9bbb5" text-anchor="middle" font-weight="400" >experience</text>
+<path d="M760,380 C735,404 708,404 684,386" fill="none" stroke="#2fb59a" stroke-width="2" marker-end="url(#ah)"/>
+<text x="722" y="418" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#a9bbb5" text-anchor="middle" font-weight="400" >verified gains</text>
+<line x1="300" y1="200" x2="300" y2="164" stroke="#73877f" stroke-width="2" marker-end="url(#ah)"/><text x="308" y="186" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#a9bbb5" text-anchor="start" font-weight="400" >proposals</text>
+<line x1="420" y1="164" x2="420" y2="198" stroke="#73877f" stroke-width="2" marker-end="url(#ah)"/><text x="428" y="186" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#a9bbb5" text-anchor="start" font-weight="400" >verdicts</text>
+<line x1="870" y1="200" x2="870" y2="164" stroke="#73877f" stroke-width="2" marker-end="url(#ah)"/><text x="878" y="186" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#a9bbb5" text-anchor="start" font-weight="400" >candidates</text>
+<rect x="40" y="456" width="640" height="44" rx="8" fill="#1a2b27" stroke="#2fb59a" stroke-width="1.5"/>
+<text x="360" y="484" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#e6efec" text-anchor="middle" font-weight="600" >Mind ABI: one contract between the mind and any model</text>
+<line x1="120" y1="500" x2="120" y2="530" stroke="#2c3b36" stroke-width="2"/>
+<line x1="280" y1="500" x2="280" y2="530" stroke="#2c3b36" stroke-width="2"/>
+<line x1="440" y1="500" x2="440" y2="530" stroke="#2c3b36" stroke-width="2"/>
+<line x1="600" y1="500" x2="600" y2="530" stroke="#2c3b36" stroke-width="2"/>
+<rect x="45" y="530" width="150" height="62" rx="10" fill="#17211e" stroke="#2c3b36" stroke-width="1.5"/>
+<text x="120" y="556" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#e6efec" text-anchor="middle" font-weight="600" >Qwen family</text>
+<text x="120" y="576" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#a9bbb5" text-anchor="middle" font-weight="400" >today's research cortex</text>
+<rect x="205" y="530" width="150" height="62" rx="10" fill="#17211e" stroke="#2c3b36" stroke-width="1.5"/>
+<text x="280" y="556" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#e6efec" text-anchor="middle" font-weight="600" >GLM family</text>
+<text x="280" y="576" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#a9bbb5" text-anchor="middle" font-weight="400" >next test, not yet run</text>
+<rect x="365" y="530" width="150" height="62" rx="10" fill="#17211e" stroke="#2c3b36" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="440" y="556" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#e6efec" text-anchor="middle" font-weight="600" >Future open models</text>
+<text x="440" y="576" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#a9bbb5" text-anchor="middle" font-weight="400" >as they appear</text>
+<rect x="525" y="530" width="150" height="62" rx="10" fill="#17211e" stroke="#2c3b36" stroke-width="1.5" stroke-dasharray="5 4"/>
+<text x="600" y="556" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#e6efec" text-anchor="middle" font-weight="600" >Ouroboros-native</text>
+<text x="600" y="576" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#a9bbb5" text-anchor="middle" font-weight="400" >research only</text>
+<text x="700" y="556" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#e6efec" text-anchor="start" font-weight="600" >Replaceable cortex</text>
+<text x="700" y="578" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#a9bbb5" text-anchor="start" font-weight="400" >The language model does the</text>
+<text x="700" y="595" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#a9bbb5" text-anchor="start" font-weight="400" >reasoning; the mind provides</text>
+<text x="700" y="612" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#a9bbb5" text-anchor="start" font-weight="400" >continuity across upgrades.</text>
+</svg>

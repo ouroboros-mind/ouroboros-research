@@ -1,0 +1,17 @@
+title: "[EXP-] "
+labels: ["experiment"]
+body:
+  - type: input
+    id: experiment
+    attributes:
+      label: Experiment ID
+      placeholder: e.g. EXP-0044
+    validations:
+      required: true
+  - type: textarea
+    id: discussion
+    attributes:
+      label: Discussion
+      description: Interpretation, critique, alternative explanations, or suggested follow-up experiments.
+    validations:
+      required: true

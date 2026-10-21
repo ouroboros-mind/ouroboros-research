@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="120" viewBox="0 0 120 120" role="img" aria-labelledby="t d">
+<title id="t">Ouroboros mark</title>
+<desc id="d">An open ring whose leading end approaches its tail, around a smaller ring and a center point.</desc>
+<rect width="120" height="120" rx="14" fill="#111816"/>
+<path d="M77.8,26.4 A38,38 0 1 1 48.3,23.9" fill="none" stroke="#2fb59a" stroke-width="7" stroke-linecap="round"/>
+<circle cx="48.3" cy="23.9" r="7.5" fill="#2fb59a"/>
+<path d="M48.7,81.2 A24,24 0 1 1 67.4,82.8" fill="none" stroke="#1d5c51" stroke-width="4" stroke-linecap="round"/>
+<circle cx="60" cy="60" r="5" fill="#a9bbb5"/>
+</svg>

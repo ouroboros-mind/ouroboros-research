@@ -1,0 +1,34 @@
+name: Replication report
+description: Report an independent test of a claim in this repository, positive or negative.
+title: "[Replication] "
+labels: ["replication"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Partial and negative replications are as valuable as positive ones. Please do not include confidential or proprietary material.
+  - type: input
+    id: claim
+    attributes:
+      label: Claim tested
+      placeholder: e.g. EXP-0044, gated multi-round growth improves a skill over two generations
+    validations:
+      required: true
+  - type: textarea
+    id: setup
+    attributes:
+      label: Setup
+      description: Model, task domain, verifier, number of seeds, evaluation size, and how your setup differs from the description here.
+    validations:
+      required: true
+  - type: textarea
+    id: results
+    attributes:
+      label: Results
+      description: Numbers, significance, noise floor, regression and forgetting if measured.
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link to code, data or write-up (optional)

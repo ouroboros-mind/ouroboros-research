@@ -1,0 +1,12 @@
+labels: ["architecture"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Architecture is described here at a conceptual level. Questions about private implementation details may not be answerable.
+  - type: textarea
+    id: topic
+    attributes:
+      label: Topic
+    validations:
+      required: true

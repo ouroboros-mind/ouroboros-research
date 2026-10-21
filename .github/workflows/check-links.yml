@@ -1,0 +1,33 @@
+name: Check relative links
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify relative links and image paths resolve
+        shell: python
+        run: |
+          import re, sys
+          from pathlib import Path
+          link = re.compile(r'(?:\]\(|src=")([^)"#\s]+)(#[^)"\s]*)?')
+          bad = []
+          for md in Path('.').rglob('*.md'):
+              if '.git' in md.parts:
+                  continue
+              for m in link.finditer(md.read_text(encoding='utf-8')):
+                  target = m.group(1)
+                  if re.match(r'^[a-z]+:', target):
+                      continue
+                  if not (md.parent / target).exists():
+                      bad.append(f'{md}: {target}')
+          print('\n'.join(bad) or 'all relative links resolve')
+          sys.exit(1 if bad else 0)

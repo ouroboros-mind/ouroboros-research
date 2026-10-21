@@ -1,0 +1,22 @@
+name: Prior-art reference
+description: Point us to related work we missed or described inaccurately.
+title: "[Prior art] "
+labels: ["prior-art"]
+body:
+  - type: input
+    id: work
+    attributes:
+      label: Work
+      description: Title, authors, year, and a link (paper, repository or product page).
+    validations:
+      required: true
+  - type: textarea
+    id: relevance
+    attributes:
+      label: What it shows and how it relates to Ouroboros
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Correction to PRIOR_ART.md (if any)

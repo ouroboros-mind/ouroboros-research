@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="560" viewBox="0 0 980 560" role="img" aria-labelledby="t d">
+<title id="t">EXP-0044 lineage progression</title>
+<desc id="d">Dumbbell chart. On 600 held-out territory tasks (base model 340 passes), lineage A rose from 486 to 535 (+8.2 points), lineage B from 521 to 562 (+6.8), lineage C from 489 to 528 (+6.5). Gains of the accepted candidate over the current root: round 1 +15, +15, +8; round 2 +7, +4, +9.</desc>
+<rect width="980" height="560" rx="14" fill="#111816"/>
+<text x="40" y="44" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" fill="#e6efec" text-anchor="start" font-weight="600" >EXP-0044: three seeded lineages, two accepted generations each</text>
+<text x="40" y="68" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#a9bbb5" text-anchor="start" font-weight="400" >Gated multi-round growth on one model (Qwen family), one task territory. Pre-registered decision rule passed for 3 of 3.</text>
+<text x="40" y="110" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#e6efec" text-anchor="start" font-weight="600" >Final test: passes on the same 600 held-out territory tasks</text>
+<line x1="195.0" y1="128" x2="195.0" y2="330" stroke="#2c3b36" stroke-width="1"/>
+<text x="195.0" y="350" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#73877f" text-anchor="middle" font-weight="400" >350</text>
+<line x1="270.0" y1="128" x2="270.0" y2="330" stroke="#2c3b36" stroke-width="1"/>
+<text x="270.0" y="350" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#73877f" text-anchor="middle" font-weight="400" >400</text>
+<line x1="345.0" y1="128" x2="345.0" y2="330" stroke="#2c3b36" stroke-width="1"/>
+<text x="345.0" y="350" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#73877f" text-anchor="middle" font-weight="400" >450</text>
+<line x1="420.0" y1="128" x2="420.0" y2="330" stroke="#2c3b36" stroke-width="1"/>
+<text x="420.0" y="350" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#73877f" text-anchor="middle" font-weight="400" >500</text>
+<line x1="495.0" y1="128" x2="495.0" y2="330" stroke="#2c3b36" stroke-width="1"/>
+<text x="495.0" y="350" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#73877f" text-anchor="middle" font-weight="400" >550</text>
+<line x1="180.0" y1="128" x2="180.0" y2="330" stroke="#a9bbb5" stroke-width="1.5" stroke-dasharray="4 4"/>
+<text x="186.0" y="142" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#a9bbb5" text-anchor="start" font-weight="400" >base model: 340</text>
+<text x="40" y="180" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#e6efec" text-anchor="start" font-weight="600" >Lineage A</text>
+<line x1="399.0" y1="175" x2="472.5" y2="175" stroke="#a9bbb5" stroke-width="2"/>
+<circle cx="399.0" cy="175" r="7" fill="#111816" stroke="#4a7fd0" stroke-width="3"/>
+<circle cx="472.5" cy="175" r="8" fill="#1fa27f" stroke="#111816" stroke-width="2"/>
+<text x="385.0" y="180" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#a9bbb5" text-anchor="end" font-weight="400" >486</text>
+<text x="486.5" y="180" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#e6efec" text-anchor="start" font-weight="600" >535</text>
+<text x="520.5" y="180" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#e6efec" text-anchor="start" font-weight="400" >+8.2 pts</text>
+<text x="40" y="240" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#e6efec" text-anchor="start" font-weight="600" >Lineage B</text>
+<line x1="451.5" y1="235" x2="513.0" y2="235" stroke="#a9bbb5" stroke-width="2"/>
+<circle cx="451.5" cy="235" r="7" fill="#111816" stroke="#4a7fd0" stroke-width="3"/>
+<circle cx="513.0" cy="235" r="8" fill="#1fa27f" stroke="#111816" stroke-width="2"/>
+<text x="437.5" y="240" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#a9bbb5" text-anchor="end" font-weight="400" >521</text>
+<text x="527.0" y="240" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#e6efec" text-anchor="start" font-weight="600" >562</text>
+<text x="561.0" y="240" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#e6efec" text-anchor="start" font-weight="400" >+6.8 pts</text>
+<text x="40" y="300" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#e6efec" text-anchor="start" font-weight="600" >Lineage C</text>
+<line x1="403.5" y1="295" x2="462.0" y2="295" stroke="#a9bbb5" stroke-width="2"/>
+<circle cx="403.5" cy="295" r="7" fill="#111816" stroke="#4a7fd0" stroke-width="3"/>
+<circle cx="462.0" cy="295" r="8" fill="#1fa27f" stroke="#111816" stroke-width="2"/>
+<text x="389.5" y="300" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#a9bbb5" text-anchor="end" font-weight="400" >489</text>
+<text x="476.0" y="300" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#e6efec" text-anchor="start" font-weight="600" >528</text>
+<text x="510.0" y="300" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#e6efec" text-anchor="start" font-weight="400" >+6.5 pts</text>
+<circle cx="160" cy="388" r="7" fill="#111816" stroke="#4a7fd0" stroke-width="3"/>
+<text x="174" y="393" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#a9bbb5" text-anchor="start" font-weight="400" >G0: root at the start of EXP-0044</text>
+<circle cx="400" cy="388" r="8" fill="#1fa27f"/>
+<text x="414" y="393" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#a9bbb5" text-anchor="start" font-weight="400" >G2: root after two accepted rounds</text>
+<text x="640" y="110" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="15" fill="#e6efec" text-anchor="start" font-weight="600" >Gain at each accepted round</text>
+<text x="640" y="130" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#a9bbb5" text-anchor="start" font-weight="400" >passes gained over the current root (held-out check)</text>
+<line x1="640" y1="330.0" x2="930" y2="330.0" stroke="#2c3b36" stroke-width="1"/>
+<text x="632" y="334.0" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#73877f" text-anchor="end" font-weight="400" >0</text>
+<line x1="640" y1="285.0" x2="930" y2="285.0" stroke="#2c3b36" stroke-width="1"/>
+<text x="632" y="289.0" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#73877f" text-anchor="end" font-weight="400" >+5</text>
+<line x1="640" y1="240.0" x2="930" y2="240.0" stroke="#2c3b36" stroke-width="1"/>
+<text x="632" y="244.0" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#73877f" text-anchor="end" font-weight="400" >+10</text>
+<line x1="640" y1="195.0" x2="930" y2="195.0" stroke="#2c3b36" stroke-width="1"/>
+<text x="632" y="199.0" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#73877f" text-anchor="end" font-weight="400" >+15</text>
+<path d="M660,330 L660,199.0 Q660,195.0 664,195.0 L686,195.0 Q690,195.0 690,199.0 L690,330 Z" fill="#1fa27f"/>
+<text x="675" y="188.0" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#e6efec" text-anchor="middle" font-weight="600" >+15</text>
+<text x="675" y="346" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#73877f" text-anchor="middle" font-weight="400" >R1</text>
+<path d="M692,330 L692,271.0 Q692,267.0 696,267.0 L718,267.0 Q722,267.0 722,271.0 L722,330 Z" fill="#1fa27f"/>
+<text x="707" y="260.0" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#e6efec" text-anchor="middle" font-weight="600" >+7</text>
+<text x="707" y="346" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#73877f" text-anchor="middle" font-weight="400" >R2</text>
+<text x="691" y="364" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#e6efec" text-anchor="middle" font-weight="400" >Lineage A</text>
+<path d="M755,330 L755,199.0 Q755,195.0 759,195.0 L781,195.0 Q785,195.0 785,199.0 L785,330 Z" fill="#1fa27f"/>
+<text x="770" y="188.0" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#e6efec" text-anchor="middle" font-weight="600" >+15</text>
+<text x="770" y="346" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#73877f" text-anchor="middle" font-weight="400" >R1</text>
+<path d="M787,330 L787,298.0 Q787,294.0 791,294.0 L813,294.0 Q817,294.0 817,298.0 L817,330 Z" fill="#1fa27f"/>
+<text x="802" y="287.0" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#e6efec" text-anchor="middle" font-weight="600" >+4</text>
+<text x="802" y="346" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#73877f" text-anchor="middle" font-weight="400" >R2</text>
+<text x="786" y="364" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#e6efec" text-anchor="middle" font-weight="400" >Lineage B</text>
+<path d="M850,330 L850,262.0 Q850,258.0 854,258.0 L876,258.0 Q880,258.0 880,262.0 L880,330 Z" fill="#1fa27f"/>
+<text x="865" y="251.0" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#e6efec" text-anchor="middle" font-weight="600" >+8</text>
+<text x="865" y="346" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#73877f" text-anchor="middle" font-weight="400" >R1</text>
+<path d="M882,330 L882,253.0 Q882,249.0 886,249.0 L908,249.0 Q912,249.0 912,253.0 L912,330 Z" fill="#1fa27f"/>
+<text x="897" y="242.0" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#e6efec" text-anchor="middle" font-weight="600" >+9</text>
+<text x="897" y="346" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#73877f" text-anchor="middle" font-weight="400" >R2</text>
+<text x="881" y="364" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#e6efec" text-anchor="middle" font-weight="400" >Lineage C</text>
+<text x="40" y="448" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#a9bbb5" text-anchor="start" font-weight="400" >G0 and G2 were scored on the same 600 tasks in the same session. G1 was not scored on the final test. Each round's check used different</text>
+<text x="40" y="468" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#a9bbb5" text-anchor="start" font-weight="400" >held-out tasks, so round gains are shown separately rather than chained into one curve. One-sided exact McNemar p (G2 vs G0): 2.8e-6,</text>
+<text x="40" y="488" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#a9bbb5" text-anchor="start" font-weight="400" >1.9e-5, 2.6e-6. Measured forgetting stayed below 0.01 (nonzero) for every accepted candidate. Two difficulty levels dipped inside the gains.</text>
+<text x="40" y="508" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#a9bbb5" text-anchor="start" font-weight="400" >No ungated control was run, so the cause of the gain is not identified. Transfer outside the territory was not measured.</text>
+</svg>

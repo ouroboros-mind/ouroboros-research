@@ -1,0 +1,24 @@
+# CFF 1.2.0 offers only the "software" and "dataset" types; "software" is used for this documentation repository.
+cff-version: 1.2.0
+message: "If you refer to this research, please cite it as below."
+title: "Ouroboros: research toward a lifelong, model-independent artificial mind (Research Preview 0.1)"
+type: software
+version: "0.1.0-preview"
+authors:
+  - given-names: "Christopher"
+    family-names: "Ayers"
+abstract: >-
+  Ouroboros is a research program exploring whether one persistent artificial
+  intelligence can grow throughout its lifetime, become measurably more capable
+  from verified experience, and preserve the same evolving mind while its
+  underlying AI models are upgraded or replaced. Model independence and
+  lifelong operation are research goals and have not been demonstrated. This
+  repository is the public research record: thesis, conceptual architecture,
+  roadmap, experiment ledger and results. It contains no implementation.
+keywords:
+  - artificial-intelligence
+  - continual-learning
+  - lifelong-learning
+  - self-improving-ai
+  - ai-agents
+  - metacognition

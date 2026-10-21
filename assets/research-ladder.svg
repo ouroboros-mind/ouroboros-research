@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="624" viewBox="0 0 980 624" role="img" aria-labelledby="t d">
+<title id="t">Ouroboros research ladder</title>
+<desc id="d">Nine research rungs with their current status: two partial, one supported (multi-round gated growth), one open question, one hypothesis, one in progress, one long-term direction and two moonshots.</desc>
+<rect width="980" height="624" rx="14" fill="#111816"/>
+<text x="40" y="44" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" fill="#e6efec" text-anchor="start" font-weight="600" >Research ladder: status from the experiment ledger</text>
+<text x="40" y="68" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#a9bbb5" text-anchor="start" font-weight="400" >Filled: supported. Half: partial or in progress. Hollow: open or hypothesis. Dashed: moonshot.</text>
+<line x1="60" y1="100" x2="60" y2="548" stroke="#2c3b36" stroke-width="3"/>
+<circle cx="60" cy="100" r="9" fill="#111816" stroke="#2fb59a" stroke-width="2.5"/>
+<path d="M60,91 A9,9 0 0 0 60,109 Z" fill="#2fb59a"/>
+<text x="88" y="97" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#e6efec" text-anchor="start" font-weight="600" >Persistent memory and identity</text>
+<text x="88" y="116" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#a9bbb5" text-anchor="start" font-weight="400" >Twelve-day synthetic memory gate passed (EXP-0033); kernel v0 built. Not yet tested across models.</text>
+<text x="940" y="97" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#a9bbb5" text-anchor="end" font-weight="600" letter-spacing="0.6">PARTIAL</text>
+<circle cx="60" cy="156" r="9" fill="#111816" stroke="#2fb59a" stroke-width="2.5"/>
+<path d="M60,147 A9,9 0 0 0 60,165 Z" fill="#2fb59a"/>
+<text x="88" y="153" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#e6efec" text-anchor="start" font-weight="600" >Verified skill learning</text>
+<text x="88" y="172" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#a9bbb5" text-anchor="start" font-weight="400" >Skills learned in domain from verified work; transfer to unseen task families failed (EXP-0041).</text>
+<text x="940" y="153" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#a9bbb5" text-anchor="end" font-weight="600" letter-spacing="0.6">PARTIAL</text>
+<circle cx="60" cy="212" r="10" fill="#1fa27f" stroke="#111816" stroke-width="2"/>
+<text x="88" y="209" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#e6efec" text-anchor="start" font-weight="600" >Multi-round gated growth</text>
+<text x="88" y="228" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#a9bbb5" text-anchor="start" font-weight="400" >EXP-0044: 3 of 3 seeded lineages, two accepted rounds each. One model, one task territory.</text>
+<text x="940" y="209" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#e6efec" text-anchor="end" font-weight="600" letter-spacing="0.6">SUPPORTED</text>
+<circle cx="60" cy="268" r="9" fill="#111816" stroke="#a9bbb5" stroke-width="2.5"/>
+<text x="88" y="265" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#e6efec" text-anchor="start" font-weight="600" >Cross-territory transfer</text>
+<text x="88" y="284" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#a9bbb5" text-anchor="start" font-weight="400" >Not established. The next major test for grown roots.</text>
+<text x="940" y="265" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#a9bbb5" text-anchor="end" font-weight="600" letter-spacing="0.6">OPEN QUESTION</text>
+<circle cx="60" cy="324" r="9" fill="#111816" stroke="#a9bbb5" stroke-width="2.5"/>
+<text x="88" y="321" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#e6efec" text-anchor="start" font-weight="600" >Better breeders</text>
+<text x="88" y="340" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#a9bbb5" text-anchor="start" font-weight="400" >Do improved generations produce better successors more often? Not yet measured.</text>
+<text x="940" y="321" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#a9bbb5" text-anchor="end" font-weight="600" letter-spacing="0.6">HYPOTHESIS</text>
+<circle cx="60" cy="380" r="9" fill="#111816" stroke="#2fb59a" stroke-width="2.5"/>
+<path d="M60,371 A9,9 0 0 0 60,389 Z" fill="#2fb59a"/>
+<text x="88" y="377" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#e6efec" text-anchor="start" font-weight="600" >Cross-cortex continuity</text>
+<text x="88" y="396" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#a9bbb5" text-anchor="start" font-weight="400" >EXP-0045: one mind on two model families. Being built; has not run.</text>
+<text x="940" y="377" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#a9bbb5" text-anchor="end" font-weight="600" letter-spacing="0.6">IN PROGRESS</text>
+<circle cx="60" cy="436" r="9" fill="#111816" stroke="#a9bbb5" stroke-width="2.5"/>
+<text x="88" y="433" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#e6efec" text-anchor="start" font-weight="600" >Consumer-hardware mind</text>
+<text x="88" y="452" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#a9bbb5" text-anchor="start" font-weight="400" >Gaming-class GPUs as an eventual home. No work started and no fixed memory target.</text>
+<text x="940" y="433" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#a9bbb5" text-anchor="end" font-weight="600" letter-spacing="0.6">LONG-TERM DIRECTION</text>
+<circle cx="60" cy="492" r="9" fill="#111816" stroke="#73877f" stroke-width="2.5" stroke-dasharray="3 3"/>
+<text x="88" y="489" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#e6efec" text-anchor="start" font-weight="600" >Recursive meta-improvement</text>
+<text x="88" y="508" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#a9bbb5" text-anchor="start" font-weight="400" >A learning process that improves the way it learns, measured by the protected layer.</text>
+<text x="940" y="489" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#a9bbb5" text-anchor="end" font-weight="600" letter-spacing="0.6">MOONSHOT</text>
+<circle cx="60" cy="548" r="9" fill="#111816" stroke="#73877f" stroke-width="2.5" stroke-dasharray="3 3"/>
+<text x="88" y="545" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#e6efec" text-anchor="start" font-weight="600" >Frontier-like local AI</text>
+<text x="88" y="564" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#a9bbb5" text-anchor="start" font-weight="400" >A mature personal mind with frontier-like effective capability. Aspiration, not a claim.</text>
+<text x="940" y="545" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#a9bbb5" text-anchor="end" font-weight="600" letter-spacing="0.6">MOONSHOT</text>
+</svg>

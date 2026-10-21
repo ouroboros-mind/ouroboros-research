@@ -1,0 +1,25 @@
+name: Research question
+description: Ask a question about the research, a result, or a claim in this repository.
+title: "[Question] "
+labels: ["research-question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Questions about methods, results and limitations are welcome. Implementation details of the private core are not published, so some questions may be answered at a conceptual level only.
+  - type: input
+    id: reference
+    attributes:
+      label: Which page or experiment is this about?
+      placeholder: e.g. results/EXP-0044.md
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Why it matters (optional)
+      description: What would change in your understanding depending on the answer?

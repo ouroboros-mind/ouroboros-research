@@ -1,0 +1,15 @@
+labels: ["papers"]
+body:
+  - type: input
+    id: paper
+    attributes:
+      label: Paper or project
+      description: Title and link.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it is relevant
+    validations:
+      required: true
