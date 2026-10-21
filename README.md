@@ -63,8 +63,8 @@ Small test, no weights moved. [Write-up](results/EXP-0045.md)
 | **Latest result** | [EXP-0045](results/EXP-0045.md), cortex independence, first form: supported |
 | **Strongest growth result** | [EXP-0044](results/EXP-0044.md), gated multi-round growth: supported in 3 of 3 lineages |
 | **Built and first tested** | Mind ABI, Experience Bus, portable genome format, Cognitive Kernel v0 (tested together in EXP-0045) |
-| **Public commitments** | Ledger checkpoint published 2026-10-21; per-experiment commitments from the next pre-registration ([how it works](public-commitments/README.md)) |
-| **Next question** | Can neural learning on one model improve a skill without changing the mind's own records? (EXP-0046, designed, not yet registered) |
+| **Public commitments** | Ledger checkpoint 2026-10-21; first pre-run commitment: [EXP-0046](public-commitments/experiments/EXP-0046.commitment.json) ([how it works](public-commitments/README.md)) |
+| **Next question** | Can neural learning on one model improve a skill without changing the mind's own records? (EXP-0046: pre-registered, commitment published, not yet run) |
 | **What we do not claim** | Not AGI. Not unrestricted self-improvement. We have no evidence that Ouroboros is sentient, and we make no such claim. |
 
 ### Known limits

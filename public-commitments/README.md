@@ -51,5 +51,5 @@ It does not prove that no trial run happened before the commitment, that the pri
 ## Status
 
 - Ledger checkpoint 2026-10-21: entry 92 of the private ledger, covering EXP-0001 to EXP-0045. Those 45 experiments were pre-registered in the private ledger before this folder existed, so their pre-run timing remains author-reported. The checkpoint fixes their records from 2026-10-21 on.
-- Per-experiment commitments start with the next pre-registration (EXP-0046). None exists yet.
+- Per-experiment commitments: [EXP-0046](experiments/EXP-0046.commitment.json), committed 2026-10-21 after its pre-registration and before its run. It is the first.
 - A third-party timestamp (for example OpenTimestamps) for each commitment is planned and not yet in place.
