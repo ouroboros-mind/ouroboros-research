@@ -2,9 +2,9 @@
 
 Ouroboros builds on a large body of earlier work. This page names the work closest to it, what each shows, where Ouroboros overlaps, how it differs, and what we took from it. It is a research scan, not a legal or exhaustive search. An idea we developed independently is not novel for that reason, and persistence alone is not a differentiator.
 
-We claim no novelty over the mechanisms of the systems below, or over their combination. Where Ouroboros differs, the difference is mostly in what it plans to measure, and much of it is not yet demonstrated. See the [experiment ledger](EXPERIMENTS.md) for what has been.
+We claim no novelty for the mechanisms these systems established. Where Ouroboros differs, the difference is mostly in what it measures, and much of it is not yet demonstrated. This page is a research scan, not a legal opinion: it makes no finding on novelty, patentability or freedom to operate for any particular combination or implementation.<sup>1</sup> See the [experiment ledger](EXPERIMENTS.md) for what has been.
 
-Last reviewed: 2026-10-20. Corrections are welcome through an issue (see [CONTRIBUTING.md](CONTRIBUTING.md)).
+Last reviewed: 2026-10-21. Corrections are welcome through an issue (see [CONTRIBUTING.md](CONTRIBUTING.md)).
 
 ## mini-AGI
 
@@ -164,8 +164,12 @@ The author describes it as a toy-level model, notes that much of the code was wr
 
 **Overlap.** Ouroboros's separate selfhood research track uses indicator properties drawn from theories such as global workspace, recurrent processing, higher-order and attention-schema theories.
 
-**How Ouroboros differs.** It does not differ in method; it adopts the indicator approach and its caution. Ouroboros does not claim sentience. See [docs/sentience-research.md](docs/sentience-research.md).
+**How Ouroboros differs.** It does not differ in method; it adopts the indicator approach and its caution. We have no evidence that Ouroboros is sentient, and we make no such claim. See [docs/sentience-research.md](docs/sentience-research.md).
 
 ## Other work we track
 
 Memory operating systems such as MemOS, global-workspace agent designs, open-ended code-evolution systems such as AlphaEvolve ([arXiv:2506.13131](https://arxiv.org/abs/2506.13131)), and lifelong mixture-of-experts work. Pointers to anything we have missed are welcome.
+
+---
+
+<sub>1. Legal and intellectual-property questions are reserved for attorney review.</sub>

@@ -1,0 +1,12 @@
+{
+  "format": "ouroboros-commitment-v1",
+  "experiment_id": "EXAMPLE-0001",
+  "salts": {
+    "created_at": "469a804a3de33093244cfa1d711a4541246148beb889d51bab86386f542cdab4",
+    "decision_rule": "8d3bc4405341fdd9b425b8b3917f2f890724f87ffc9c25969ffebbcc311dd99f",
+    "evaluation_suite": "f23ec2db1fe386fb920522da2fda6f1a8075d758b3e1b310cf819f1a76ed5039",
+    "experiment_id": "aa2c4c32fe76f58fa0423a3377b54121dc17ac33c2db66cab463dddb24827649",
+    "hypothesis": "88a9f30c7ca922c92b469ca5fcf74c612e891d969f0c6b7f23ff36511f5b5bc8",
+    "training_recipe": "307d80872c512485e752fc7c9170a98ba1b23b0d79ff692f10c130f838b63097"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "experiment_id": "EXAMPLE-0001",
+  "hypothesis": "A toy example: a coin flipped 100 times lands heads at least 40 times.",
+  "decision_rule": "Supported if heads >= 40 of 100; else not supported.",
+  "evaluation_suite": "Withheld in a real commitment; shown here so the example can be fully checked.",
+  "training_recipe": null,
+  "created_at": "2026-10-21T00:00:00+00:00"
+}

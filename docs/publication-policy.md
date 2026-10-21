@@ -23,7 +23,7 @@ Where a protocol is withheld, the page says so. Withholding a method never chang
 
 ## What a reader can and cannot verify
 
-Because code, data, task sets, training procedures and the ledger are private, readers cannot reproduce experiments or verify pre-registration timing from this repository. Pre-registration, contamination checks and ledger integrity are author-reported. Readers can check internal consistency (for example, that p-values recompute from published paired counts) and test the claims independently on their own tasks and models.
+Because code, data, task sets, training procedures and the ledger are private, readers cannot reproduce experiments from this repository. Contamination checks and ledger integrity are author-reported, and so is the pre-registration timing of EXP-0001 to EXP-0045. From EXP-0046 on, each pre-registration is committed by salted hash in [public-commitments/](../public-commitments/README.md) before it runs, and a ledger checkpoint fixes the private ledger's history. Readers can check internal consistency (for example, that p-values recompute from published paired counts) and test the claims independently on their own tasks and models.
 
 ## Rules for adding a result
 

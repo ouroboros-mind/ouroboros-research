@@ -452,3 +452,4 @@ Goal: show that the persistent mind, not the model, is the individual.
 - One-line results compress pre-registered decisions. Each result states the decision first; favorable details underneath a negative decision do not change its label.
 - Benchmark contents, private task sets, prompts, datasets, adapter weights and training settings are not published.
 - New entries are appended at the bottom and the totals are updated. Old entries are never rewritten. Corrections are added as dated notes.
+- From EXP-0046 on, each pre-registration is committed by hash in [public-commitments/](public-commitments/README.md) before it runs.

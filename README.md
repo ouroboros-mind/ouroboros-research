@@ -9,31 +9,63 @@
 
 <p align="center">
   Research Preview 0.1 ·
-  <a href="results/EXP-0044.md">Latest result</a> ·
+  <a href="results/EXP-0045.md">Latest result</a> ·
+  <a href="results/EXP-0044.md">Growth result</a> ·
   <a href="EXPERIMENTS.md">Experiment ledger</a> ·
   <a href="ROADMAP.md">Roadmap</a> ·
   <a href="ARCHITECTURE.md">Architecture</a> ·
   <a href="PRIOR_ART.md">Prior art</a> ·
+  <a href="public-commitments/README.md">Public commitments</a> ·
   <a href="FAQ.md">FAQ</a>
 </p>
 
 Ouroboros is a research project exploring whether one persistent artificial intelligence can grow throughout its lifetime, become measurably more capable from verified experience, and preserve the same evolving mind while its underlying AI models are upgraded or replaced. Can an AI grow up instead of being replaced?
 
-> **Where the evidence stands.** Model independence and lifelong operation are the project's research goals. **Neither has been demonstrated in full.** What has been shown so far is narrow: skill gains over two gated training rounds, on one Qwen-family model, inside one family of programming tasks; and, in a first small test (EXP-0045), one mind kept its identity, memory, procedures and calibration when moved between two model families. No learned weights have moved between models.
+## Headline results
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**EXP-0044 · Multi-round capability growth**<br>
+SUPPORTED · strongest growth result
+
+Three seeded skill lineages each finished two gated generations above their start on 600 held-out programming tasks: **+8.2, +6.8 and +6.5 points**, every p < 1e-4, forgetting below 0.01.
+
+One model, one task territory. [Write-up](results/EXP-0044.md)
+
+</td>
+<td width="50%" valign="top">
+
+**EXP-0045 · Persistent mind across model families**<br>
+SUPPORTED (first form) · latest result
+
+One mind moved from a Qwen-derived model to GLM-4.7-Flash and kept its identity, memory, procedures and calibration: continuity battery **15 of 15** on both models, against **1** for a newborn and **4** for a different genome.
+
+Small test, no weights moved. [Write-up](results/EXP-0045.md)
+
+</td>
+</tr>
+</table>
+
+**Not yet shown:** transfer outside a trained territory (an earlier test was negative), migration of learned neural capability to a new model, better breeders (generations that get better at producing successors), and recursive meta-improvement.
 
 <p align="center">
   <img src="assets/architecture.svg" alt="Conceptual architecture: a persistent Cognitive Kernel above a Mind ABI and replaceable model cortices, with a learning plane and a protected evaluation plane" width="100%">
 </p>
 
-## Current status
+## Evidence dashboard
 
 | | |
 |---|---|
-| **Latest result** | [EXP-0045](results/EXP-0045.md), one mind on two model families: **supported** (first form; its pre-registered decision rule passed) |
-| **Previous result** | [EXP-0044](results/EXP-0044.md), gated multi-round growth: **supported** (its pre-registered decision rule passed for all three seeded lineages) |
-| **Record so far** | 45 pre-registered experiments, every one listed in the [ledger](EXPERIMENTS.md) with its outcome, including the 15 that did not support their hypothesis |
-| **Built and first tested** | Mind ABI, Experience Bus, a portable genome format and Cognitive Kernel v0, tested together in EXP-0045 |
-| **Next question** | Can neural learning on one model improve skill without corrupting the mind's own records? |
+| **Pre-registered experiments** | 45: 13 supported, 7 partial, 15 not supported, 1 inconclusive, 9 infrastructure ([ledger](EXPERIMENTS.md)) |
+| **Negative results** | All kept: every not-supported and inconclusive experiment is in the ledger with its outcome |
+| **Latest result** | [EXP-0045](results/EXP-0045.md), cortex independence, first form: supported |
+| **Strongest growth result** | [EXP-0044](results/EXP-0044.md), gated multi-round growth: supported in 3 of 3 lineages |
+| **Built and first tested** | Mind ABI, Experience Bus, portable genome format, Cognitive Kernel v0 (tested together in EXP-0045) |
+| **Public commitments** | Ledger checkpoint published 2026-10-21; per-experiment commitments from the next pre-registration ([how it works](public-commitments/README.md)) |
+| **Next question** | Can neural learning on one model improve a skill without changing the mind's own records? (EXP-0046, designed, not yet registered) |
+| **What we do not claim** | Not AGI. Not unrestricted self-improvement. We have no evidence that Ouroboros is sentient, and we make no such claim. |
 
 ### Known limits
 
@@ -41,7 +73,7 @@ Ouroboros is a research project exploring whether one persistent artificial inte
 - **Narrow and short.** The growth result covers two rounds, inside one internally generated territory of programming tasks.
 - **Transfer unmeasured.** Gains outside the trained territory were not measured, and an earlier transfer test was negative ([EXP-0041](EXPERIMENTS.md#exp-0041)).
 - **Forgetting was measured, not zero.** It stayed below 0.01 on the forgetting probe for every accepted candidate. That does not rule out forgetting outside the probe.
-- **Not publicly auditable.** The ledger, task sets, training procedure, code and raw results are private. See [what you can and cannot verify](#what-you-can-and-cannot-verify).
+- **Limited public auditability.** The ledger, task sets, training procedure, code and raw results are private. Hash commitments let some of it be checked later; see [what you can and cannot verify](#what-you-can-and-cannot-verify).
 
 ## Why this exists
 
@@ -67,7 +99,7 @@ Four layers, kept deliberately separate. Detail: [ARCHITECTURE.md](ARCHITECTURE.
 
 ## Design hypotheses and evidence status
 
-Most of these ideas exist in earlier work ([PRIOR_ART.md](PRIOR_ART.md)). Ouroboros does not claim the combination is novel. It tests whether the combination works when held to pre-registered measurement.
+Most of these ideas exist in earlier work ([PRIOR_ART.md](PRIOR_ART.md)), and Ouroboros claims no novelty for mechanisms established by that work. What it adds is held to pre-registered measurement.
 
 | Hypothesis | Status |
 |---|---|
@@ -77,9 +109,13 @@ Most of these ideas exist in earlier work ([PRIOR_ART.md](PRIOR_ART.md)). Ourobo
 | Capability compilation: recurring reasoning becomes cheaper skills | Partial: narrow skills learned; transfer not shown |
 | Multi-timescale learning with different safeguards per speed | Partial: memory and adapter tiers exercised; slower tiers not started |
 | Protected evaluation outside the learning system's reach | In use (author-reported; not externally audited) |
-| Local deployment on hardware an individual owns | Long-term direction, not started |
+| Local deployment on hardware an individual owns | Long-term direction: no fixed hardware target; full per-generation resource records start with EXP-0046 |
 
-## Latest result: EXP-0044
+## Latest result: EXP-0045
+
+One mind lived a session on a Qwen-derived model, was exported as a portable genome and imported onto GLM-4.7-Flash, a model from a different family. On a withheld 15-item continuity battery it scored 15 on both models, against 1 for a newly born mind and 4 for a different genome on the same GLM model. Every task frame on GLM carried its compiled procedure, and its predictions about its tools stayed calibrated (Brier 0.0032, against 0.0635 for the newborn). The held-out tasks were too easy to measure the effect of skills, and no learned weights moved. Full write-up, including what this cannot tell us: [results/EXP-0045.md](results/EXP-0045.md).
+
+## Strongest growth result: EXP-0044
 
 On one internally generated territory of programming tasks with automatic correctness checks, three seeded skill adapters ("roots") each went through two rounds of gated training. In each round a candidate replaced the current version only if it beat it on held-out tasks and passed a forgetting check. All three finished above where they started on a separate 600-task test. This did not test other task families or another model.
 
@@ -141,7 +177,7 @@ Full write-up: [results/EXP-0044.md](results/EXP-0044.md).
 | Cross-territory transfer | Open question | Not established |
 | Better breeders | Hypothesis | Not yet measured |
 | Cross-cortex continuity | Supported in a first small test | [EXP-0045](results/EXP-0045.md): two model families, one run; no weights moved |
-| Consumer-hardware mind | Long-term research direction | No work started; no fixed memory target |
+| Consumer-hardware mind | Long-term research direction | No fixed hardware target; full per-generation resource records start with EXP-0046 |
 | Recursive meta-improvement | Moonshot | Not started |
 | Frontier-like local AI | Moonshot | Not started |
 
@@ -157,19 +193,20 @@ More: [RESEARCH_QUESTION.md](RESEARCH_QUESTION.md).
 
 ## What you can and cannot verify
 
-The raw data, task sets, training procedure, code and the experiment ledger itself are private. Numbers on these pages are copied from that author-maintained ledger. Pre-registration timing, contamination checks and ledger integrity are author-reported and cannot be checked from this repository.
+The raw data, task sets, training procedure, code and the experiment ledger itself are private. Numbers on these pages are copied from that author-maintained ledger. Contamination checks and ledger integrity are author-reported. Pre-registration timing is author-reported for EXP-0001 to EXP-0045; from EXP-0046 on, each pre-registration is committed here by hash before it runs.
 
 | You can | You cannot |
 |---|---|
 | Check internal consistency, for example that the EXP-0044 p-values recompute from the published gained and lost task counts | Reproduce any experiment from this repository |
+| From EXP-0046 on, check that a revealed pre-registration field matches a commitment published before the run ([public commitments](public-commitments/README.md)) | Verify the pre-run timing of EXP-0001 to EXP-0045, which predate the commitments |
 | See every experiment, including negative and inconclusive ones | Inspect the task sets, the training procedure or raw results |
-| Test the claims independently on your own tasks and models | Verify when an experiment was pre-registered |
+| Test the claims independently on your own tasks and models | Rule out a trial run before a commitment; the author controls both the ledger and the timing |
 
 Replication reports, positive or negative, are welcome: see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## Hardware
 
-Experiments run on a GX10-class (NVIDIA GB10) desk-side research workstation, which can serve and adapt a 35B-class open-weight model on one machine. Deployment on gaming-class GPUs is a long-term research direction with no fixed memory target. See [docs/consumer-hardware.md](docs/consumer-hardware.md).
+Experiments run on a GX10-class (NVIDIA GB10) desk-side research workstation, which can serve and adapt a 35B-class open-weight model on one machine. The long-term aim is intelligence density: increasingly capable mature minds on practical hardware that individuals can own. No hardware ceiling is chosen in advance; each generation records its compute, memory, storage and latency, and the experiments will set the practical envelope. See [docs/consumer-hardware.md](docs/consumer-hardware.md).
 
 ## Research philosophy
 
@@ -177,7 +214,7 @@ Experiments run on a GX10-class (NVIDIA GB10) desk-side research workstation, wh
 
 ## Prior art
 
-Ouroboros builds on earlier work and claims no novelty over it, including [mini-AGI](https://github.com/volotat/mini-AGI), Letta and MemGPT, Enoch, Rosetta Memory, SEAL, AIDE², the Gödel Agent, the Darwin Gödel Machine, a self-improving coding agent, STaR and ReST-EM, PonderNet and adaptive computation, mixture-of-experts and continual-learning research, and indicator-based research on consciousness in AI. What each shows and how Ouroboros differs: [PRIOR_ART.md](PRIOR_ART.md).
+Ouroboros builds on earlier work, including [mini-AGI](https://github.com/volotat/mini-AGI), Letta and MemGPT, Enoch, Rosetta Memory, SEAL, AIDE², the Gödel Agent, the Darwin Gödel Machine, a self-improving coding agent, STaR and ReST-EM, PonderNet and adaptive computation, mixture-of-experts and continual-learning research, and indicator-based research on consciousness in AI. It claims no novelty for the mechanisms these works established. What each shows and how Ouroboros differs: [PRIOR_ART.md](PRIOR_ART.md).
 
 ## Follow the research
 

@@ -36,7 +36,7 @@ The program is organized around five proofs. Each needs its own pre-registered e
 
 > Can computational properties linked to selfhood and to theories of consciousness be built and causally tested, without mistaking convincing behavior for proof of sentience?
 
-This is research on measurable mechanisms only. Ouroboros is not sentient and does not claim to be. See [docs/sentience-research.md](docs/sentience-research.md).
+This is research on measurable mechanisms only. We have no evidence that Ouroboros is sentient, and we make no such claim. See [docs/sentience-research.md](docs/sentience-research.md).
 
 ## Evidence standard
 

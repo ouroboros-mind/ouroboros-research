@@ -1,0 +1,42 @@
+{
+  "format": "ouroboros-commitment-v1",
+  "experiment_id": "EXAMPLE-0001",
+  "revealed": [
+    {
+      "field": "hypothesis",
+      "value": "A toy example: a coin flipped 100 times lands heads at least 40 times.",
+      "salt": "88a9f30c7ca922c92b469ca5fcf74c612e891d969f0c6b7f23ff36511f5b5bc8",
+      "index": 4,
+      "path": [
+        {
+          "side": "right",
+          "hash": "5faf08ef8cb6aa80c945461a3b251cddab6852972836c7f0134ace002a587fa0"
+        },
+        {
+          "side": "left",
+          "hash": "979f292a572c0ef15f08578abb288f566773098dd0dfa63ed7f16520ad6362de"
+        }
+      ]
+    },
+    {
+      "field": "decision_rule",
+      "value": "Supported if heads >= 40 of 100; else not supported.",
+      "salt": "8d3bc4405341fdd9b425b8b3917f2f890724f87ffc9c25969ffebbcc311dd99f",
+      "index": 1,
+      "path": [
+        {
+          "side": "left",
+          "hash": "4ccbc43795c3521d9626c2dcf009f25fabd1e1737d9ae6a92752fe8121003151"
+        },
+        {
+          "side": "right",
+          "hash": "110e1e770173d38677c3a25568ec54a25c315d082b524b0e425e0ba9a1b80b53"
+        },
+        {
+          "side": "right",
+          "hash": "5b0922d5678a8037bd75ea0968ed7d4602b8dcd774633eb590bf514c1d316709"
+        }
+      ]
+    }
+  ]
+}

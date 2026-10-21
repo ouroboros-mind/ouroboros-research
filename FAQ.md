@@ -30,7 +30,7 @@ No. Ouroboros is a research program with a moonshot of eventually reaching front
 
 ### Is it sentient?
 
-No, and we do not claim it is. A separate research track studies measurable computational properties associated with theories of consciousness, under strict evidence rules. Their presence would not by itself establish phenomenal consciousness. See [docs/sentience-research.md](docs/sentience-research.md).
+We have no evidence that Ouroboros is sentient, and we make no such claim. A separate research track studies measurable computational properties associated with theories of consciousness, under strict evidence rules. Their presence would not by itself establish phenomenal consciousness. See [docs/sentience-research.md](docs/sentience-research.md).
 
 ### Why use a GX10?
 
@@ -42,7 +42,7 @@ Not today. Running a mature mind on gaming-class GPUs is a long-term research di
 
 ### How is it different from Letta?
 
-Letta (which grew out of MemGPT) already provides persistent, model-switchable agents with memory, skills and sleep-time compute. Ouroboros overlaps with that and does not claim novelty over it. Its research focus is whether persistent cognitive state can become verified neural capability on open-weight models, and measuring behavior and capability after a model change. Neither has been demonstrated yet. See [PRIOR_ART.md](PRIOR_ART.md#letta-and-memgpt).
+Letta (which grew out of MemGPT) already provides persistent, model-switchable agents with memory, skills and sleep-time compute. Ouroboros overlaps with that and claims no novelty for those capabilities. Its research focus is whether persistent cognitive state can become verified neural capability on open-weight models, and measuring behavior and capability after a model change. Neither has been demonstrated yet. See [PRIOR_ART.md](PRIOR_ART.md#letta-and-memgpt).
 
 ### How is it different from mini-AGI?
 
@@ -54,7 +54,7 @@ The core implementation is private and there are no current plans to release it.
 
 ### Can I reproduce the experiments?
 
-No. Code, task sets, datasets, training procedures, weights and the ledger are private, so experiments cannot be reproduced or audited from this repository, and pre-registration timing cannot be verified. The general claims can still be tested independently on your own tasks and models. Replication reports, positive or negative, are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md).
+No. Code, task sets, datasets, training procedures, weights and the ledger are private, so experiments cannot be reproduced or audited from this repository. Pre-registration timing is author-reported for EXP-0001 to EXP-0045; from EXP-0046 on, each pre-registration is committed by hash in [public-commitments/](public-commitments/README.md) before it runs, so its content can be checked when fields are revealed. The general claims can still be tested independently on your own tasks and models. Replication reports, positive or negative, are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ### How can researchers get involved?
 

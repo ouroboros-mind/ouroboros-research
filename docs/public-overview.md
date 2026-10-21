@@ -25,7 +25,7 @@ In its most recent growth experiment, EXP-0044, three seeded skill lineages on o
 
 ## What Ouroboros does not claim
 
-Not AGI. Not sentient. Not unrestricted or indefinite self-improvement. Not the first system to use the mechanisms it builds on; see [PRIOR_ART.md](../PRIOR_ART.md).
+Not AGI. We have no evidence that Ouroboros is sentient, and we make no such claim. Not unrestricted or indefinite self-improvement. No novelty claimed for the established mechanisms it builds on; see [PRIOR_ART.md](../PRIOR_ART.md).
 
 ## Suggested language
 

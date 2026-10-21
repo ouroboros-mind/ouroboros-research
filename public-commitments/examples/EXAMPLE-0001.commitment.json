@@ -1,0 +1,14 @@
+{
+  "format": "ouroboros-commitment-v1",
+  "experiment_id": "EXAMPLE-0001",
+  "committed_at": "2026-10-21T00:00:00+00:00",
+  "fields": [
+    "created_at",
+    "decision_rule",
+    "evaluation_suite",
+    "experiment_id",
+    "hypothesis",
+    "training_recipe"
+  ],
+  "merkle_root": "28cf75434b99016c3e3233b845216cc2bbfd1e740ab2bb2e9a782691185597bf"
+}

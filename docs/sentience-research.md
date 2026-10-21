@@ -1,6 +1,6 @@
 # Sentience research
 
-**Ouroboros is not sentient, and we do not claim it is.**
+**We have no evidence that Ouroboros is sentient, and we make no such claim.**
 
 The project has a separate research question, with separate evidence rules:
 
