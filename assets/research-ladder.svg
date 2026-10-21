@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="980" height="624" viewBox="0 0 980 624" role="img" aria-labelledby="t d">
 <title id="t">Ouroboros research ladder</title>
-<desc id="d">Nine research rungs with their current status: two partial, one supported (multi-round gated growth), one open question, one hypothesis, one in progress, one long-term direction and two moonshots.</desc>
+<desc id="d">Nine research rungs with their current status: two partial, two supported (multi-round gated growth; cross-cortex continuity, first form), one open question, one hypothesis, one long-term direction and two moonshots.</desc>
 <rect width="980" height="624" rx="14" fill="#111816"/>
 <text x="40" y="44" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" fill="#e6efec" text-anchor="start" font-weight="600" >Research ladder: status from the experiment ledger</text>
 <text x="40" y="68" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13" fill="#a9bbb5" text-anchor="start" font-weight="400" >Filled: supported. Half: partial or in progress. Hollow: open or hypothesis. Dashed: moonshot.</text>
@@ -8,7 +8,7 @@
 <circle cx="60" cy="100" r="9" fill="#111816" stroke="#2fb59a" stroke-width="2.5"/>
 <path d="M60,91 A9,9 0 0 0 60,109 Z" fill="#2fb59a"/>
 <text x="88" y="97" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#e6efec" text-anchor="start" font-weight="600" >Persistent memory and identity</text>
-<text x="88" y="116" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#a9bbb5" text-anchor="start" font-weight="400" >Twelve-day synthetic memory gate passed (EXP-0033); kernel v0 built. Not yet tested across models.</text>
+<text x="88" y="116" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#a9bbb5" text-anchor="start" font-weight="400" >Twelve-day synthetic memory gate passed (EXP-0033); carried across two model families (EXP-0045).</text>
 <text x="940" y="97" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#a9bbb5" text-anchor="end" font-weight="600" letter-spacing="0.6">PARTIAL</text>
 <circle cx="60" cy="156" r="9" fill="#111816" stroke="#2fb59a" stroke-width="2.5"/>
 <path d="M60,147 A9,9 0 0 0 60,165 Z" fill="#2fb59a"/>
@@ -30,8 +30,8 @@
 <circle cx="60" cy="380" r="9" fill="#111816" stroke="#2fb59a" stroke-width="2.5"/>
 <path d="M60,371 A9,9 0 0 0 60,389 Z" fill="#2fb59a"/>
 <text x="88" y="377" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#e6efec" text-anchor="start" font-weight="600" >Cross-cortex continuity</text>
-<text x="88" y="396" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#a9bbb5" text-anchor="start" font-weight="400" >EXP-0045: one mind on two model families. Being built; has not run.</text>
-<text x="940" y="377" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#a9bbb5" text-anchor="end" font-weight="600" letter-spacing="0.6">IN PROGRESS</text>
+<text x="88" y="396" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#a9bbb5" text-anchor="start" font-weight="400" >EXP-0045: one mind on two model families. First form supported.</text>
+<text x="940" y="377" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11" fill="#a9bbb5" text-anchor="end" font-weight="600" letter-spacing="0.6">FIRST FORM</text>
 <circle cx="60" cy="436" r="9" fill="#111816" stroke="#a9bbb5" stroke-width="2.5"/>
 <text x="88" y="433" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" fill="#e6efec" text-anchor="start" font-weight="600" >Consumer-hardware mind</text>
 <text x="88" y="452" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12" fill="#a9bbb5" text-anchor="start" font-weight="400" >Gaming-class GPUs as an eventual home. No work started and no fixed memory target.</text>

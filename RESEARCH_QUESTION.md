@@ -18,7 +18,7 @@ The program is organized around five proofs. Each needs its own pre-registered e
 
 | Proof | Claim | Status |
 |---|---|---|
-| 1. Cortex independence | One mind runs on two different model families and keeps its identity, memories, goals, world and self models, and skills | In progress (EXP-0045 has not run) |
+| 1. Cortex independence | One mind runs on two different model families and keeps its identity, memories, goals, world and self models, and skills | First form supported (EXP-0045); learned capability not yet tested |
 | 2. Neural learning without corruption | An open-weight model learns a verified, generalized capability in its weights without corrupting the mind's other records | Not started |
 | 3. Brain migration | A mature mind moves to a new model and keeps measurable continuity | Not started |
 | 4. Mature beats fresh | A mature instance substantially beats its frozen seed on new tasks | Early single-model evidence inside narrow territories (EXP-0041 to EXP-0044); transfer not shown |

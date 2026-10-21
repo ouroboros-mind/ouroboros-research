@@ -23,4 +23,4 @@ The kernel does not grade itself. Evaluation and promotion live in the protected
 
 ## Status
 
-Cognitive Kernel v0 is built in the private codebase. It is a design under test, not a demonstrated individual, with a first world model, competency map, workspace, System-1 and self-model, and it passed an acceptance session on one cortex. That is an engineering milestone, not a research result. The first experiment that tests the kernel as a persistent individual across two model families is EXP-0045, which has not run.
+Cognitive Kernel v0 is built in the private codebase. It is a design under test, not a demonstrated individual, with a first world model, competency map, workspace, System-1 and self-model, and it passed an acceptance session on one cortex. That is an engineering milestone, not a research result. EXP-0045 then tested the kernel as a persistent individual across two model families and its first form was supported.

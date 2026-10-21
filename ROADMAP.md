@@ -9,8 +9,8 @@ The public roadmap is organized around research questions, not features. Each st
 *Can one individual keep its memory and identity over time and across changes?*
 
 - **Partial.** A long-horizon memory gate passed on synthetic text: the model wrote its own memory from twelve days of documents, kept corrections, and gave identical answers after its memory moved to a clean store ([EXP-0031](EXPERIMENTS.md#exp-0031) to [EXP-0033](EXPERIMENTS.md#exp-0033)).
-- **Built, not yet tested by experiment:** Cognitive Kernel v0, the Experience Bus and a portable genome format.
-- **Not yet shown:** the same on real-world text, and the same across different model families (Stage E).
+- **Built and first tested (EXP-0045):** Cognitive Kernel v0, the Experience Bus and a portable genome format.
+- **Not yet shown:** the same on real-world text, on long histories, or for learned capability across model families (Stage E). EXP-0045 was only a first small cross-family continuity test.
 
 ## Stage B: Lifelong learning
 
@@ -37,7 +37,7 @@ The public roadmap is organized around research questions, not features. Each st
 
 *Does the mind survive a change of language model?*
 
-- **In progress.** EXP-0045 will run one mind on two models from different families. It is being built and has not run.
+- **First form supported.** EXP-0045 ran one mind on two models from different families; it kept its identity, memory, procedures and calibration. No weights moved, and the held-out tasks were too easy to measure skill effects.
 - **Later:** a mature mind migrates to a new model.
 
 ## Stage F: Intelligence density
@@ -60,7 +60,7 @@ The public roadmap is organized around research questions, not features. Each st
 
 ## Near-term sequence
 
-1. EXP-0045: one mind, two model families (in progress).
+1. EXP-0045: one mind, two model families (done: first form supported).
 2. A neural skill learned through the Mind ABI on an open-weight model.
 3. Transfer and breeding experiments for grown roots.
 4. Migration of a mature mind to a new cortex.

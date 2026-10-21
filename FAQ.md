@@ -6,7 +6,7 @@ A research program asking whether one persistent AI can grow throughout its life
 
 ### Is it an LLM?
 
-No. Ouroboros uses language models as a replaceable **cortex**. The persistent part, the Cognitive Kernel, holds identity, memory, skills, a world model, a self-model and a measured map of competencies, and is designed to talk to whichever model it uses through one contract, the Mind ABI. Model independence has not yet been demonstrated. See [ARCHITECTURE.md](ARCHITECTURE.md).
+No. Ouroboros uses language models as a replaceable **cortex**. The persistent part, the Cognitive Kernel, holds identity, memory, skills, a world model, a self-model and a measured map of competencies, and is designed to talk to whichever model it uses through one contract, the Mind ABI. A first small cross-family continuity test (EXP-0045) is supported, but general model independence and the transfer of learned capability remain unproven. See [ARCHITECTURE.md](ARCHITECTURE.md).
 
 ### Why not just memory or RAG?
 
@@ -14,7 +14,7 @@ Memory is part of it, and retrieval is the main memory path in our experiments t
 
 ### Does it work with any LLM?
 
-That is the design goal, and it has not been demonstrated. So far every learning experiment ran on one open-weight Qwen-family model. The first test on a second model family (EXP-0045) has not run yet.
+That is the design goal, and it has not been demonstrated. So far every learning experiment ran on one open-weight Qwen-family model. A first small test on a second model family (EXP-0045) kept the mind's identity, memory, procedures and calibration across the swap; it trained nothing, so carrying learned capability is still undemonstrated.
 
 ### Is it self-improving?
 

@@ -4,6 +4,7 @@ Detailed write-ups of selected experiments. Every experiment, including the nega
 
 | Result | Date | Outcome | One line |
 |---|---|---|---|
+| [EXP-0045](EXP-0045.md) | 2026-10-21 | SUPPORTED | One mind kept its identity, memory, procedures and calibration when moved from a Qwen-derived model to GLM-4.7-Flash: battery 15 of 15 on both, against 1 (newborn) and 4 (different genome); first form, no weights moved |
 | [EXP-0044](EXP-0044.md) | 2026-10-20 | SUPPORTED | Three seeded lineages each finished two gated generations above their start: +8.2, +6.8 and +6.5 points on 600 held-out tasks, with no regression on the whole territory beyond base noise and measured forgetting below 0.01 |
 
 ## How a result page is structured

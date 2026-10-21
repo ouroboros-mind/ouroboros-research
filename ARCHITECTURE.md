@@ -2,7 +2,7 @@
 
 > **The mind should survive replacement of the cortex.**
 
-This page describes the intended Ouroboros architecture at a conceptual level: what the parts are for and how they relate. It is a design, not a demonstrated result; model independence has not yet been tested. Algorithms, data formats, selection rules and training methods are private and not described here.
+This page describes the intended Ouroboros architecture at a conceptual level: what the parts are for and how they relate. It is a design, not a claim of general model independence; EXP-0045 was a first small cross-family continuity test. Algorithms, data formats, selection rules and training methods are private and not described here.
 
 <p align="center">
   <img src="assets/architecture.svg" alt="Conceptual architecture diagram" width="100%">
@@ -40,7 +40,7 @@ The cortex is the language model that performs high-level neural reasoning. It i
 | Cortex | Status |
 |---|---|
 | Qwen family (open-weight, 35B-class mixture of experts) | Today's research cortex. All learning experiments so far ran on it |
-| GLM family | Planned second cortex for the first model-independence test (EXP-0045, not yet run) |
+| GLM family | Second cortex (GLM-4.7-Flash) in the first model-independence test, EXP-0045 |
 | Future open models | Expected as they appear; each change is meant to follow a migration protocol with rollback |
 | Ouroboros-native cortex | Research direction only. It would be considered only after the proofs show which properties matter |
 
@@ -67,7 +67,7 @@ The evaluation plane sits outside the mind. Evaluation material, promotion rules
 | Mind ABI with a conformance suite | Built |
 | Experience Bus v1 and genome bundle v2 (identity, lineage, memory, skills) | Built |
 | Cognitive Kernel v0 (world model v0, competency map v0, workspace, System-1, self-model v1) | Built; one acceptance session on one cortex passed |
-| Running one mind on two model families | In progress (EXP-0045 has not run) |
+| Running one mind on two model families | First form supported (EXP-0045) |
 | Neural skill compilation through the ABI | Planned (after EXP-0045) |
 | Migration of a mature mind to a new cortex | Planned |
 | Ouroboros-native cortex | Research direction only |

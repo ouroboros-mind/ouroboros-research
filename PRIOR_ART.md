@@ -34,7 +34,7 @@ The author describes it as a toy-level model, notes that much of the code was wr
 
 **Overlap with Ouroboros.** Persistent, model-independent agents with memory, skills, model switching and sleep-time learning. This is the closest product-level prior art for "the mind outlives the model."
 
-**How Ouroboros differs.** Ouroboros explores whether persistent cognitive state can become verified neural capability on open-weight models, and plans to measure what survives a change of model in behavior and capability. In our scan of Letta's public materials we did not find published measurements of identity or capability after a model switch; that measurement is what Ouroboros's first proof targets, and it has not run.
+**How Ouroboros differs.** Ouroboros explores whether persistent cognitive state can become verified neural capability on open-weight models, and plans to measure what survives a change of model in behavior and capability. In our scan of Letta's public materials we did not find published measurements of identity or capability after a model switch; that measurement is what Ouroboros's first proof targets. Its first form (EXP-0045) measured identity and memory continuity after a switch; capability after a switch is not yet measured.
 
 **What we learned.** Portable memory and identity are table stakes, not a contribution. The research value has to come from measurement and from learning that goes beyond token space.
 
@@ -46,7 +46,7 @@ The author describes it as a toy-level model, notes that much of the code was wr
 
 **Overlap.** Separating a durable agent from a replaceable model and migrating it with a protocol.
 
-**How Ouroboros differs.** Ouroboros's planned cortex-independence test is meant to measure behavior and capability after a swap, not only continuity of state. It has not run.
+**How Ouroboros differs.** Ouroboros's cortex-independence test is meant to measure behavior and capability after a swap, not only continuity of state. Its first form (EXP-0045) showed continuity of identity, memory, procedures and calibration across two model families; capability after the swap was at ceiling and not measured.
 
 **What we learned.** A swap protocol is prior art. Our proof must measure behavior, not only continuity of files.
 
@@ -58,7 +58,7 @@ The author describes it as a toy-level model, notes that much of the code was wr
 
 **Overlap.** Memory that carries over when the underlying model is replaced, the closest published work to the memory side of Ouroboros's first proof.
 
-**How Ouroboros differs.** Ouroboros's planned test covers identity, goals, world and self models and skills as well as memory, measured by behavior and capability. It has not run.
+**How Ouroboros differs.** Ouroboros's test covers identity, goals, world and self models and skills as well as memory, measured by behavior and capability. Its first form (EXP-0045) covered identity, memory, procedures and the world model; goals and the self-model were not separately tested.
 
 ## SEAL: self-adapting language models
 

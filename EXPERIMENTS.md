@@ -17,13 +17,12 @@ Labels follow each experiment's pre-registered decision rule, not how useful the
 | **NOT SUPPORTED** | The pre-registered decision was negative. Kept in full |
 | **INCONCLUSIVE** | A pre-registered validity check failed, so the decision was void |
 | **INFRASTRUCTURE** | Measurement, tooling or calibration work. Not a capability claim |
-| **PENDING** | Built or being built, has not run |
 
-## Totals (EXP-0001 to EXP-0044)
+## Totals (EXP-0001 to EXP-0045)
 
 | SUPPORTED | PARTIAL | NOT SUPPORTED | INCONCLUSIVE | INFRASTRUCTURE | Total |
 |---:|---:|---:|---:|---:|---:|
-| 12 | 7 | 15 | 1 | 9 | 44 |
+| 13 | 7 | 15 | 1 | 9 | 45 |
 
 Experiments vary widely in scope, and seeds within an experiment are not independent replications, so these counts are not a success rate.
 
@@ -78,7 +77,7 @@ Experiments vary widely in scope, and seeds within an experiment are not indepen
 | [EXP-0042](#exp-0042) | 2026-10-18 | Routed roots | NOT SUPPORTED |
 | [EXP-0043](#exp-0043) | 2026-10-19 | One growth round | NOT SUPPORTED |
 | [EXP-0044](#exp-0044) | 2026-10-20 | Gated multi-round growth | SUPPORTED |
-| [EXP-0045](#exp-0045) | not yet registered | One mind, two model families | PENDING |
+| [EXP-0045](#exp-0045) | 2026-10-21 | One mind, two model families | SUPPORTED |
 
 ---
 
@@ -439,9 +438,12 @@ Goal: grow skills that have automatic correctness checks, use each only in its o
 Goal: show that the persistent mind, not the model, is the individual.
 
 ### EXP-0045
-Not yet registered · PENDING
-- **Question.** Can one persistent mind run on two cortices from different model families (a Qwen-derived model and a GLM-family model) and keep its memories, identity, goals, world and self models, and skills?
-- **Status.** The prerequisites are built: the Mind ABI, the Experience Bus, a versioned genome format and Cognitive Kernel v0. The experiment is being built. It has not run, and nothing here is a result. Its test design is withheld.
+2026-10-21 · SUPPORTED
+- **Question.** Can one persistent mind run on two cortices from different model families (a Qwen-derived model and GLM-4.7-Flash) and keep its identity, memories, skills and world model?
+- **Result.** The pre-registered decision rule passed (five gates). On a withheld 15-item continuity battery, the mind scored 15 on its original model and 15 on GLM-4.7-Flash, against 1 for a newly born mind and 4 for a different genome on GLM. Every task frame on GLM carried its compiled procedure, and its tool predictions stayed calibrated (Brier 0.0032 against 0.0635 for the newborn). Held-out tasks were at ceiling for every arm, so the effect of the skills is unmeasured. No weights moved.
+- **What changed.** Identity, memory, procedures and calibration belonged to the genome, not the model, in this first small test.
+- **Next question.** Can neural learning on one model improve skill without corrupting the mind's records?
+- **Full write-up.** [results/EXP-0045.md](results/EXP-0045.md)
 
 ---
 

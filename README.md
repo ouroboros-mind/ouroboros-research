@@ -19,7 +19,7 @@
 
 Ouroboros is a research project exploring whether one persistent artificial intelligence can grow throughout its lifetime, become measurably more capable from verified experience, and preserve the same evolving mind while its underlying AI models are upgraded or replaced. Can an AI grow up instead of being replaced?
 
-> **Where the evidence stands.** Model independence and lifelong operation are the project's research goals. **Neither has been demonstrated yet.** What has been shown so far is narrow: skill gains over two gated training rounds, on one Qwen-family model, inside one family of programming tasks. The first test of one mind on two different models (EXP-0045) has not run.
+> **Where the evidence stands.** Model independence and lifelong operation are the project's research goals. **Neither has been demonstrated in full.** What has been shown so far is narrow: skill gains over two gated training rounds, on one Qwen-family model, inside one family of programming tasks; and, in a first small test (EXP-0045), one mind kept its identity, memory, procedures and calibration when moved between two model families. No learned weights have moved between models.
 
 <p align="center">
   <img src="assets/architecture.svg" alt="Conceptual architecture: a persistent Cognitive Kernel above a Mind ABI and replaceable model cortices, with a learning plane and a protected evaluation plane" width="100%">
@@ -29,14 +29,15 @@ Ouroboros is a research project exploring whether one persistent artificial inte
 
 | | |
 |---|---|
-| **Latest result** | [EXP-0044](results/EXP-0044.md), gated multi-round growth: **supported** (its pre-registered decision rule passed for all three seeded lineages) |
-| **Record so far** | 44 pre-registered experiments, every one listed in the [ledger](EXPERIMENTS.md) with its outcome, including the 15 that did not support their hypothesis |
-| **Built, not yet tested by experiment** | Mind ABI, Experience Bus, a portable genome format and Cognitive Kernel v0 |
-| **Next question** | EXP-0045 (in progress, has not run): can one persistent mind run on two different model families and keep its memories, identity and skills? |
+| **Latest result** | [EXP-0045](results/EXP-0045.md), one mind on two model families: **supported** (first form; its pre-registered decision rule passed) |
+| **Previous result** | [EXP-0044](results/EXP-0044.md), gated multi-round growth: **supported** (its pre-registered decision rule passed for all three seeded lineages) |
+| **Record so far** | 45 pre-registered experiments, every one listed in the [ledger](EXPERIMENTS.md) with its outcome, including the 15 that did not support their hypothesis |
+| **Built and first tested** | Mind ABI, Experience Bus, a portable genome format and Cognitive Kernel v0, tested together in EXP-0045 |
+| **Next question** | Can neural learning on one model improve skill without corrupting the mind's own records? |
 
 ### Known limits
 
-- **One model family.** Every learning result so far used one Qwen-family model.
+- **One model family for learning.** Every learning result so far used one Qwen-family model. EXP-0045 moved a mind between two families, but trained nothing.
 - **Narrow and short.** The growth result covers two rounds, inside one internally generated territory of programming tasks.
 - **Transfer unmeasured.** Gains outside the trained territory were not measured, and an earlier transfer test was negative ([EXP-0041](EXPERIMENTS.md#exp-0041)).
 - **Forgetting was measured, not zero.** It stayed below 0.01 on the forgetting probe for every accepted candidate. That does not rule out forgetting outside the probe.
@@ -71,7 +72,7 @@ Most of these ideas exist in earlier work ([PRIOR_ART.md](PRIOR_ART.md)). Ourobo
 | Hypothesis | Status |
 |---|---|
 | A persistent individual with its own history and lineage | Partial: memory over a twelve-day synthetic run passed its gate; kernel built |
-| A replaceable cortex: behavior and capability survive a model swap | Planned (EXP-0045 has not run) |
+| A replaceable cortex: behavior and capability survive a model swap | Partial: identity, memory, procedures and calibration survived a swap between two families (EXP-0045); learned capability not yet tested |
 | Verified learning: changes are kept only when held-out checks say so | In use on one model (author-reported) |
 | Capability compilation: recurring reasoning becomes cheaper skills | Partial: narrow skills learned; transfer not shown |
 | Multi-timescale learning with different safeguards per speed | Partial: memory and adapter tiers exercised; slower tiers not started |
@@ -134,12 +135,12 @@ Full write-up: [results/EXP-0044.md](results/EXP-0044.md).
 
 | Rung | Status | Evidence |
 |---|---|---|
-| Persistent memory and identity | Partial | Twelve-day synthetic memory gate passed ([EXP-0033](EXPERIMENTS.md#exp-0033)); kernel v0 built. Not yet tested across models |
+| Persistent memory and identity | Partial | Twelve-day synthetic memory gate passed ([EXP-0033](EXPERIMENTS.md#exp-0033)); kernel v0 built; carried across two model families in a first small test ([EXP-0045](results/EXP-0045.md)) |
 | Verified skill learning | Partial | Skills learned in their own domain; transfer to unseen task families failed ([EXP-0041](EXPERIMENTS.md#exp-0041)) |
 | Multi-round gated growth | Supported on one model, inside one territory | [EXP-0044](results/EXP-0044.md) |
 | Cross-territory transfer | Open question | Not established |
 | Better breeders | Hypothesis | Not yet measured |
-| Cross-cortex continuity | In progress | EXP-0045 is being built and has not run |
+| Cross-cortex continuity | Supported in a first small test | [EXP-0045](results/EXP-0045.md): two model families, one run; no weights moved |
 | Consumer-hardware mind | Long-term research direction | No work started; no fixed memory target |
 | Recursive meta-improvement | Moonshot | Not started |
 | Frontier-like local AI | Moonshot | Not started |

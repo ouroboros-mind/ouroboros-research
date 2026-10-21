@@ -1,6 +1,6 @@
 # Persistent identity
 
-What does it mean for an AI to stay the same individual over years, through upgrades of the model it runs on? Ouroboros treats this as an engineering and measurement question, not a philosophical one. None of what follows has been demonstrated across models yet.
+What does it mean for an AI to stay the same individual over years, through upgrades of the model it runs on? Ouroboros treats this as an engineering and measurement question, not a philosophical one. Only a first small test across models has run so far (EXP-0045, below); most of what follows is design, not result.
 
 ## Working definitions
 
@@ -15,4 +15,4 @@ Carrying files across a model change is not enough; prior work has already shown
 
 ## Status
 
-The record-keeping is built: lineage in the ledger, an append-only experience record and a portable genome format. On synthetic text, moving a memory to a clean store gave identical answers (EXP-0031, EXP-0033). Continuity across two model families is EXP-0045, which is being built and has not run.
+The record-keeping is built: lineage in the ledger, an append-only experience record and a portable genome format. On synthetic text, moving a memory to a clean store gave identical answers (EXP-0031, EXP-0033). Continuity across two model families passed a first small test (EXP-0045): identity, memory, procedures and calibration carried; no weights moved.

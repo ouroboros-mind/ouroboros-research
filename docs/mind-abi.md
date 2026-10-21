@@ -15,6 +15,6 @@ If the mind called a particular model's API directly, scattered through its code
 
 ## Status
 
-The Mind ABI and its conformance suite are built, and the existing evaluation code was moved behind it with identical recorded results. One cortex has passed conformance for the capabilities it claims. Running the same mind through the ABI on two model families is EXP-0045, which has not run.
+The Mind ABI and its conformance suite are built, and the existing evaluation code was moved behind it with identical recorded results. One cortex has passed conformance for the capabilities it claims. Two cortices from different model families have passed conformance, and EXP-0045 ran the same mind through the ABI on both.
 
 Driver interfaces, capability definitions and conformance tests are withheld.
