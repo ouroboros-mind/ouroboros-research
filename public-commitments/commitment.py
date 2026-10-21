@@ -2,7 +2,7 @@
 
 commit:  python3 commitment.py commit PREREG.json EXP-ID PUBLIC_DIR PRIVATE_DIR
          writes PUBLIC_DIR/EXP-ID.commitment.json and PRIVATE_DIR/EXP-ID.salts.json (keep private;
-         refused if PRIVATE_DIR is inside this repository)
+         refused if PRIVATE_DIR is inside the repository that holds PUBLIC_DIR)
 reveal:  python3 commitment.py reveal PREREG.json SALTS.json FIELD [FIELD ...] > EXP-ID.reveal.json
 verify:  python3 commitment.py verify COMMITMENT.json REVEAL.json      (selected fields)
          python3 commitment.py verify-full COMMITMENT.json PREREG.json SALTS.json
@@ -140,10 +140,13 @@ def main(argv: list[str]) -> int:
         print(__doc__); return 2
     cmd, args = argv[1], argv[2:]
     if cmd == "commit":
-        repo = os.path.realpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))
+        repo = os.path.realpath(args[2])
+        while not os.path.isdir(os.path.join(repo, ".git")) and os.path.dirname(repo) != repo:
+            repo = os.path.dirname(repo)
         private = os.path.realpath(args[3])
         if os.path.commonpath([repo, private]) == repo:
-            print(f"refused: {args[3]} is inside the public repository; keep salts private"); return 2
+            print(f"refused: {args[3]} is inside the repository that publishes the commitment; keep salts private")
+            return 2
         pub, sal = commit(_load(args[0]), args[1])
         for path, obj in ((os.path.join(args[2], f"{args[1]}.commitment.json"), pub),
                           (os.path.join(args[3], f"{args[1]}.salts.json"), sal)):
