@@ -10,7 +10,7 @@ The public roadmap is organized around research questions, not features. Each st
 
 - **Partial.** A long-horizon memory gate passed on synthetic text: the model wrote its own memory from twelve days of documents, kept corrections, and gave identical answers after its memory moved to a clean store ([EXP-0031](EXPERIMENTS.md#exp-0031) to [EXP-0033](EXPERIMENTS.md#exp-0033)).
 - **Built and first tested (EXP-0045):** Cognitive Kernel v0, the Experience Bus and a portable genome format.
-- **Not yet shown:** the same on real-world text, on long histories, or for learned capability across model families (Stage E). EXP-0045 was only a first small cross-family continuity test.
+- **Not yet shown:** the same on real-world text, on long histories, or for learned capability across model families (Stage E). EXP-0047 preserved continuity in one mature-mind migration but lost capability.
 
 ## Stage B: Lifelong learning
 
@@ -38,7 +38,8 @@ The public roadmap is organized around research questions, not features. Each st
 *Does the mind survive a change of language model?*
 
 - **First form supported.** EXP-0045 ran one mind on two models from different families; it kept its identity, memory, procedures and calibration. No weights moved, and the held-out tasks were too easy to measure skill effects.
-- **Later:** a mature mind migrates to a new model.
+- **First form not supported.** EXP-0047 migrated the mind from EXP-0046 to a newer model. Its 12-question history battery, unchanged kernel and records, and rollback passed. Capability did not: the procedure cost points on the newer model, and a cache regrown from the mind's records was harmful and refused.
+- **Next:** regrow each skill from the new model's own verified experience and re-validate it there.
 
 ## Stage F: Intelligence density
 
@@ -63,7 +64,8 @@ The public roadmap is organized around research questions, not features. Each st
 1. EXP-0045: one mind, two model families (done: first form supported).
 2. EXP-0046: a neural skill learned through the Mind ABI on an open-weight model, without changing the mind (done: first form supported).
 3. Transfer and breeding experiments for grown roots.
-4. Migration of a mature mind to a new cortex.
+4. EXP-0047: migration of a mature mind to a new cortex (done: continuity and rollback passed; capability migration not supported).
+5. Regrow and re-validate skills from the new model's own verified experience.
 
 ## Planned demonstrations
 

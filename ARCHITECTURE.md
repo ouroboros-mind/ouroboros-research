@@ -69,7 +69,7 @@ The evaluation plane sits outside the mind. Evaluation material, promotion rules
 | Cognitive Kernel v0 (world model v0, competency map v0, workspace, System-1, self-model v1) | Built; one acceptance session on one cortex passed |
 | Running one mind on two model families | First form supported (EXP-0045) |
 | Neural skill compilation through the ABI | First form supported (EXP-0046) |
-| Migration of a mature mind to a new cortex | Planned |
+| Migration of a mature mind to a new cortex | First form not supported (EXP-0047): continuity passed, capability did not |
 | Ouroboros-native cortex | Research direction only |
 
 "Built" means implemented and tested in the private codebase. It does not mean the capability has been shown in a pre-registered experiment. The [experiment ledger](EXPERIMENTS.md) is where capability claims live.

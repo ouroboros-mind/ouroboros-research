@@ -19,11 +19,11 @@ Labels follow each experiment's pre-registered decision rule, not how useful the
 | **INFRASTRUCTURE** | Measurement, tooling or calibration work. Not a capability claim |
 | **PENDING** | Pre-registered, has not run. Not counted in the totals |
 
-## Totals (EXP-0001 to EXP-0046)
+## Totals (EXP-0001 to EXP-0047)
 
 | SUPPORTED | PARTIAL | NOT SUPPORTED | INCONCLUSIVE | INFRASTRUCTURE | Total |
 |---:|---:|---:|---:|---:|---:|
-| 14 | 7 | 15 | 1 | 9 | 46 |
+| 14 | 7 | 16 | 1 | 9 | 47 |
 
 Experiments vary widely in scope, and seeds within an experiment are not independent replications, so these counts are not a success rate.
 
@@ -80,6 +80,7 @@ Experiments vary widely in scope, and seeds within an experiment are not indepen
 | [EXP-0044](#exp-0044) | 2026-10-20 | Gated multi-round growth | SUPPORTED |
 | [EXP-0045](#exp-0045) | 2026-10-21 | One mind, two model families | SUPPORTED |
 | [EXP-0046](#exp-0046) | 2026-10-22 | A neural skill without changing the mind | SUPPORTED |
+| [EXP-0047](#exp-0047) | 2026-10-22 | Brain migration | NOT SUPPORTED |
 
 ---
 
@@ -454,6 +455,14 @@ Goal: show that the persistent mind, not the model, is the individual.
 - **What changed.** Neural learning can be requested by the mind and attached to it without touching its kernel or its other records, in this first small test.
 - **Next question.** Can a mature mind's learned skills be carried to, or regrown on, a new model?
 - **Full write-up.** [results/EXP-0046.md](results/EXP-0046.md)
+
+### EXP-0047
+2026-10-22 · NOT SUPPORTED
+- **Question.** When the model under a mature mind is replaced by a newer one that cannot load its learned cache, can the mind keep who it is, regrow what it learned from records it owns, and roll back?
+- **Result.** The pre-registered decision was negative: the mind lost capability in migration, not continuity. The 12-question battery about its lived history scored 12 of 12 on Qwen3.8-27B with the mind and 12 of 12 on Seed-0 with the mind, against 0 of 12 for Qwen3.8-27B without the mind. The kernel hash and every existing record were unchanged (four declared migration records were appended), and every training line traced to a verified reply with no trained task in a held-out set. Rollback onto Seed-0 scored 64 against 63 of 100 for Seed-0 with its cache. But the cache regrown from the mind's own records scored 124 against 147 of 200 for Qwen3.8-27B without it, so the safety rule refused it. On the 400-task final test, the learned-increment gate failed: Seed-0 with its EXP-0046 cache gained +4.5 points over raw Seed-0, while the migrated mind's cache arm on Qwen3.8-27B (no cache attached) lost 10.5 points against raw Qwen3.8-27B; the procedure-only arm lost 9.5. The refused cache was used only in its check and never registered. A request timeout required a second drained window; three runtime settings changed, with no change to a gate, threshold, data set, model or kernel code. Its [public commitment](public-commitments/experiments/EXP-0047.commitment.json) was published before the run, and four revealed fields verify against it.
+- **What changed.** Identity and records carried across this model replacement in a first small test. A skill compiled on the weaker model did not automatically help the stronger one, and the quarantine rule rejected the harmful regrowth as designed.
+- **Next question.** Can a migrated mind regrow a skill from the new model's own verified experience?
+- **Full write-up.** [results/EXP-0047.md](results/EXP-0047.md)
 
 ---
 
