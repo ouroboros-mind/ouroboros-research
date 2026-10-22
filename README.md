@@ -13,6 +13,7 @@
   <a href="results/EXP-0044.md">Growth result</a> ·
   <a href="EXPERIMENTS.md">Experiment ledger</a> ·
   <a href="ROADMAP.md">Roadmap</a> ·
+  <a href="ODDS.md">Odds log</a> ·
   <a href="ARCHITECTURE.md">Architecture</a> ·
   <a href="PRIOR_ART.md">Prior art</a> ·
   <a href="public-commitments/README.md">Public commitments</a> ·
@@ -84,6 +85,7 @@ The continuity checks passed in this test; skills must be re-validated on the ne
 |---|---|
 | **Pre-registered experiments** | 47: 14 supported, 7 partial, 16 not supported, 1 inconclusive, 9 infrastructure ([ledger](EXPERIMENTS.md)) |
 | **Negative results** | All kept: every not-supported and inconclusive experiment is in the ledger with its outcome |
+| **Running estimate** | 58 percent after EXP-0047, down from 61 after EXP-0046. A subjective estimate, not a statistic ([odds log](ODDS.md)) |
 | **Latest result** | [EXP-0047](results/EXP-0047.md), brain migration, first form: not supported. Continuity and rollback passed; capability did not |
 | **Cortex independence** | [EXP-0045](results/EXP-0045.md), one mind across two model families, first form: supported |
 | **Strongest growth result** | [EXP-0044](results/EXP-0044.md), gated multi-round growth: supported in 3 of 3 lineages |
