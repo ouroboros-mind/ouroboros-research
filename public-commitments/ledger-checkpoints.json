@@ -2,6 +2,19 @@
   "format": "ouroboros-ledger-checkpoint-v1",
   "note": "Each checkpoint is the hash of one entry in the private, append-only, hash-chained experiment ledger. Because every entry's hash covers the previous entry's hash, a checkpoint fixes every entry up to and including it. Checkpoints prove nothing about entries before the date they were first published here.",
   "checkpoints": [
-    {"date": "2026-10-21", "seq": 92, "entries": 93, "covers": "EXP-0001 to EXP-0045: 45 pre-registrations, 45 outcome records (44 completed, 1 aborted), 2 generation records and 1 baseline record", "entry_sha256": "5e18de85c4d5306d548f1062f5949a3612eed04f5999621f2e94aef7a3bf1224"}
+    {
+      "date": "2026-10-21",
+      "seq": 92,
+      "entries": 93,
+      "covers": "EXP-0001 to EXP-0045: 45 pre-registrations, 45 outcome records (44 completed, 1 aborted), 2 generation records and 1 baseline record",
+      "entry_sha256": "5e18de85c4d5306d548f1062f5949a3612eed04f5999621f2e94aef7a3bf1224"
+    },
+    {
+      "date": "2026-10-22",
+      "seq": 94,
+      "entries": 95,
+      "covers": "EXP-0001 to EXP-0046: 46 pre-registrations, 46 outcome records (45 completed, 1 aborted), 2 generation records and 1 baseline record",
+      "entry_sha256": "c5ad582f8b641db5513edd8005c8f51edcb9a32d6736ed45db45bc4ca94936e9"
+    }
   ]
 }

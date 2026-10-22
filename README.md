@@ -9,7 +9,7 @@
 
 <p align="center">
   Research Preview 0.1 ·
-  <a href="results/EXP-0045.md">Latest result</a> ·
+  <a href="results/EXP-0046.md">Latest result</a> ·
   <a href="results/EXP-0044.md">Growth result</a> ·
   <a href="EXPERIMENTS.md">Experiment ledger</a> ·
   <a href="ROADMAP.md">Roadmap</a> ·
@@ -38,11 +38,23 @@ One model, one task territory. [Write-up](results/EXP-0044.md)
 <td width="50%" valign="top">
 
 **EXP-0045 · Persistent mind across model families**<br>
-SUPPORTED (first form) · latest result
+SUPPORTED (first form)
 
 One mind moved from a Qwen-derived model to GLM-4.7-Flash and kept its identity, memory, procedures and calibration: continuity battery **15 of 15** on both models, against **1** for a newborn and **4** for a different genome.
 
 Small test, no weights moved. [Write-up](results/EXP-0045.md)
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+**EXP-0046 · A neural skill without changing the mind**<br>
+SUPPORTED (first form) · latest result
+
+The mind asked for its own verified experience to be compiled into a small neural adapter on one model. With it, the mind passed **246 of 400** held-out tasks against **221** for the plain model (**+6.25 points**, p 0.0023); the plain model scored 230 on its repeat (+2.25). Its kernel code, identity, memories and other records stayed byte-identical; only promotion, training and registration records were added, and the second model never received the adapter.
+
+Modest gain, one model, one round. [Write-up](results/EXP-0046.md)
 
 </td>
 </tr>
@@ -58,13 +70,14 @@ Small test, no weights moved. [Write-up](results/EXP-0045.md)
 
 | | |
 |---|---|
-| **Pre-registered experiments** | 45: 13 supported, 7 partial, 15 not supported, 1 inconclusive, 9 infrastructure ([ledger](EXPERIMENTS.md)) |
+| **Pre-registered experiments** | 46: 14 supported, 7 partial, 15 not supported, 1 inconclusive, 9 infrastructure ([ledger](EXPERIMENTS.md)) |
 | **Negative results** | All kept: every not-supported and inconclusive experiment is in the ledger with its outcome |
-| **Latest result** | [EXP-0045](results/EXP-0045.md), cortex independence, first form: supported |
+| **Latest result** | [EXP-0046](results/EXP-0046.md), a neural skill without changing the mind, first form: supported |
+| **Cortex independence** | [EXP-0045](results/EXP-0045.md), one mind across two model families, first form: supported |
 | **Strongest growth result** | [EXP-0044](results/EXP-0044.md), gated multi-round growth: supported in 3 of 3 lineages |
 | **Built and first tested** | Mind ABI, Experience Bus, portable genome format, Cognitive Kernel v0 (tested together in EXP-0045) |
-| **Public commitments** | Ledger checkpoint 2026-10-21; first pre-run commitment: [EXP-0046](public-commitments/experiments/EXP-0046.commitment.json) ([how it works](public-commitments/README.md)) |
-| **Next question** | Can neural learning on one model improve a skill without changing the mind's own records? (EXP-0046: pre-registered, commitment published, not yet run) |
+| **Public commitments** | Ledger checkpoints 2026-10-21 and 2026-10-22; first pre-run commitment: [EXP-0046](public-commitments/experiments/EXP-0046.commitment.json), with four revealed fields that verify ([how it works](public-commitments/README.md)) |
+| **Next question** | Can a mature mind's learned skills be carried to, or regrown on, a new model? |
 | **What we do not claim** | Not AGI. Not unrestricted self-improvement. We have no evidence that Ouroboros is sentient, and we make no such claim. |
 
 ### Known limits
@@ -111,7 +124,11 @@ Most of these ideas exist in earlier work ([PRIOR_ART.md](PRIOR_ART.md)), and Ou
 | Protected evaluation outside the learning system's reach | In use (author-reported; not externally audited) |
 | Local deployment on hardware an individual owns | Long-term direction: no fixed hardware target; full per-generation resource records start with EXP-0046 |
 
-## Latest result: EXP-0045
+## Latest result: EXP-0046
+
+A new mind lived 300 programming tasks on one model, then asked for its programming skill to become a neural cache. A protected evaluator checked every pass it cited, a separate learning process trained a small adapter only from those episodes, and the adapter had to beat no adapter and pass a forgetting check before it was attached. On 400 held-out tasks the mind with its adapter passed 246, against 221 for the plain model and 230 when the plain model was run again. Its kernel code, identity, memories and other records stayed byte-identical; its experience record only gained the promotion, training and registration records. The gain is modest: the plain model rose from 221 to 230 on its repeat. The second model could barely show harm, because 84 of its 100 answers ran out of their budget and it scored near its floor. A pipeline bug was fixed after pre-registration (recorded as a deviation). Full write-up: [results/EXP-0046.md](results/EXP-0046.md).
+
+## Cortex independence: EXP-0045
 
 One mind lived a session on a Qwen-derived model, was exported as a portable genome and imported onto GLM-4.7-Flash, a model from a different family. On a withheld 15-item continuity battery it scored 15 on both models, against 1 for a newly born mind and 4 for a different genome on the same GLM model. Every task frame on GLM carried its compiled procedure, and its predictions about its tools stayed calibrated (Brier 0.0032, against 0.0635 for the newborn). The held-out tasks were too easy to measure the effect of skills, and no learned weights moved. Full write-up, including what this cannot tell us: [results/EXP-0045.md](results/EXP-0045.md).
 
@@ -177,6 +194,7 @@ Full write-up: [results/EXP-0044.md](results/EXP-0044.md).
 | Cross-territory transfer | Open question | Not established |
 | Better breeders | Hypothesis | Not yet measured |
 | Cross-cortex continuity | Supported in a first small test | [EXP-0045](results/EXP-0045.md): two model families, one run; no weights moved |
+| Neural learning without changing the mind | Supported in a first small test | [EXP-0046](results/EXP-0046.md): +6.25 points on one model (plain repeat +2.25); kernel and other records unchanged; second-model check weak |
 | Consumer-hardware mind | Long-term research direction | No fixed hardware target; full per-generation resource records start with EXP-0046 |
 | Recursive meta-improvement | Moonshot | Not started |
 | Frontier-like local AI | Moonshot | Not started |

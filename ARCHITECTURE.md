@@ -68,7 +68,7 @@ The evaluation plane sits outside the mind. Evaluation material, promotion rules
 | Experience Bus v1 and genome bundle v2 (identity, lineage, memory, skills) | Built |
 | Cognitive Kernel v0 (world model v0, competency map v0, workspace, System-1, self-model v1) | Built; one acceptance session on one cortex passed |
 | Running one mind on two model families | First form supported (EXP-0045) |
-| Neural skill compilation through the ABI | Planned (after EXP-0045) |
+| Neural skill compilation through the ABI | First form supported (EXP-0046) |
 | Migration of a mature mind to a new cortex | Planned |
 | Ouroboros-native cortex | Research direction only |
 

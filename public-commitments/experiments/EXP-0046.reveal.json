@@ -1,0 +1,110 @@
+{
+  "format": "ouroboros-commitment-v1",
+  "experiment_id": "EXP-0046",
+  "revealed": [
+    {
+      "field": "experiment_id",
+      "value": "EXP-0046",
+      "salt": "6f3e8b94d691bd502cecce2a700989a8d4b68e855e15cdeb3687508d847a402b",
+      "index": 7,
+      "path": [
+        {
+          "side": "left",
+          "hash": "1103267144999b69a723d00096ab5c760b6de740dccac7f1c08ba681ffac92e3"
+        },
+        {
+          "side": "left",
+          "hash": "ec58d8d4953f8b8264c1cd668ea3ccd024fdd2392ce29dfcc4a7e9f1eeb9d219"
+        },
+        {
+          "side": "left",
+          "hash": "148f3c0f70f3963b438866e68470252b807131860822857f31e89d6d0ecfbbed"
+        },
+        {
+          "side": "right",
+          "hash": "e763bf39be156a7f5bd58eff75271ef17de767b5e3f462035915e5c2c5b1522e"
+        },
+        {
+          "side": "right",
+          "hash": "7d1174fea80e6324f1237a265f7b0ff42926c18458404f1fff478e3a5612688a"
+        }
+      ]
+    },
+    {
+      "field": "created_at",
+      "value": "2026-10-21T13:53:18+00:00",
+      "salt": "ff16a5c12f8d6589c03d4bfeee1edb20c5a2cedb338ff552078f1f89be446036",
+      "index": 3,
+      "path": [
+        {
+          "side": "left",
+          "hash": "ba77180f3fd86866411ff0a9bfad0e18561e5362824dda1a5b3f8a9488b88b03"
+        },
+        {
+          "side": "left",
+          "hash": "b9177939eba0a8c0a708d5778a4337fb7bbdee6507219a7b60a470c665ea370d"
+        },
+        {
+          "side": "right",
+          "hash": "106df7fa496441b5c4b8f405f4e5f5a0311a94f5eb84703ca99eb8baa7931870"
+        },
+        {
+          "side": "right",
+          "hash": "e763bf39be156a7f5bd58eff75271ef17de767b5e3f462035915e5c2c5b1522e"
+        },
+        {
+          "side": "right",
+          "hash": "7d1174fea80e6324f1237a265f7b0ff42926c18458404f1fff478e3a5612688a"
+        }
+      ]
+    },
+    {
+      "field": "status",
+      "value": "planned",
+      "salt": "f0fd9ff8801f757fff11127ff3a78621898f40f4f1ca2047a88601968e7d4dac",
+      "index": 16,
+      "path": [
+        {
+          "side": "right",
+          "hash": "52937bea4f4a1c6cc0f506ab551e41fef03d5727394181046a025067fa91376c"
+        },
+        {
+          "side": "right",
+          "hash": "2b9a224dca17f5a81764a001c76b677e4fa49dbe0a5bb0787d9a2e42dde26c98"
+        },
+        {
+          "side": "left",
+          "hash": "c13ddca225cee4745ba5f69d7311f3e81d5edbd9c07b06dd0a25e85447163f46"
+        }
+      ]
+    },
+    {
+      "field": "decision",
+      "value": "pending",
+      "salt": "46e5f42389a373f07ec3e809848bfc9f86a3ab893901babcb720a7624ff99af8",
+      "index": 5,
+      "path": [
+        {
+          "side": "left",
+          "hash": "3ec42e2a7d39d771c0751c3c6172b979fc767eba8266adaa5799ab448cad88ba"
+        },
+        {
+          "side": "right",
+          "hash": "1b296abffe912711f618b99af6380c299d69ab987fcaa3f28b9a7895b5bb297d"
+        },
+        {
+          "side": "left",
+          "hash": "148f3c0f70f3963b438866e68470252b807131860822857f31e89d6d0ecfbbed"
+        },
+        {
+          "side": "right",
+          "hash": "e763bf39be156a7f5bd58eff75271ef17de767b5e3f462035915e5c2c5b1522e"
+        },
+        {
+          "side": "right",
+          "hash": "7d1174fea80e6324f1237a265f7b0ff42926c18458404f1fff478e3a5612688a"
+        }
+      ]
+    }
+  ]
+}

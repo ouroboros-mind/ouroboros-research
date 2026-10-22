@@ -42,7 +42,7 @@ Not today. Running a mature mind on gaming-class GPUs is a long-term research di
 
 ### How is it different from Letta?
 
-Letta (which grew out of MemGPT) already provides persistent, model-switchable agents with memory, skills and sleep-time compute. Ouroboros overlaps with that and claims no novelty for those capabilities. Its research focus is whether persistent cognitive state can become verified neural capability on open-weight models, and measuring behavior and capability after a model change. Neither has been demonstrated yet. See [PRIOR_ART.md](PRIOR_ART.md#letta-and-memgpt).
+Letta (which grew out of MemGPT) already provides persistent, model-switchable agents with memory, skills and sleep-time compute. Ouroboros overlaps with that and claims no novelty for those capabilities. Its research focus is whether persistent cognitive state can become verified neural capability on open-weight models, and measuring behavior and capability after a model change. Both have first-form, narrow evidence: EXP-0046 tested verified neural capability on one model and EXP-0045 tested continuity after one model change. Neither establishes transfer, general model independence, or the migration of a mature mind. See [PRIOR_ART.md](PRIOR_ART.md#letta-and-memgpt).
 
 ### How is it different from mini-AGI?
 

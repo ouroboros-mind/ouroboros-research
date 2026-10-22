@@ -61,7 +61,7 @@ The public roadmap is organized around research questions, not features. Each st
 ## Near-term sequence
 
 1. EXP-0045: one mind, two model families (done: first form supported).
-2. A neural skill learned through the Mind ABI on an open-weight model.
+2. EXP-0046: a neural skill learned through the Mind ABI on an open-weight model, without changing the mind (done: first form supported).
 3. Transfer and breeding experiments for grown roots.
 4. Migration of a mature mind to a new cortex.
 

@@ -19,11 +19,11 @@ Labels follow each experiment's pre-registered decision rule, not how useful the
 | **INFRASTRUCTURE** | Measurement, tooling or calibration work. Not a capability claim |
 | **PENDING** | Pre-registered, has not run. Not counted in the totals |
 
-## Totals (EXP-0001 to EXP-0045)
+## Totals (EXP-0001 to EXP-0046)
 
 | SUPPORTED | PARTIAL | NOT SUPPORTED | INCONCLUSIVE | INFRASTRUCTURE | Total |
 |---:|---:|---:|---:|---:|---:|
-| 13 | 7 | 15 | 1 | 9 | 45 |
+| 14 | 7 | 15 | 1 | 9 | 46 |
 
 Experiments vary widely in scope, and seeds within an experiment are not independent replications, so these counts are not a success rate.
 
@@ -79,7 +79,7 @@ Experiments vary widely in scope, and seeds within an experiment are not indepen
 | [EXP-0043](#exp-0043) | 2026-10-19 | One growth round | NOT SUPPORTED |
 | [EXP-0044](#exp-0044) | 2026-10-20 | Gated multi-round growth | SUPPORTED |
 | [EXP-0045](#exp-0045) | 2026-10-21 | One mind, two model families | SUPPORTED |
-| [EXP-0046](#exp-0046) | registered 2026-10-21 | A neural skill without changing the mind | PENDING |
+| [EXP-0046](#exp-0046) | 2026-10-22 | A neural skill without changing the mind | SUPPORTED |
 
 ---
 
@@ -448,9 +448,12 @@ Goal: show that the persistent mind, not the model, is the individual.
 - **Full write-up.** [results/EXP-0045.md](results/EXP-0045.md)
 
 ### EXP-0046
-Pre-registered 2026-10-21 · PENDING
+2026-10-22 · SUPPORTED
 - **Question.** Can a mind turn its own verified experience into a neural skill on one model, with everything it owns outside that skill left byte-identical and its other model unaffected?
-- **Status.** Pre-registered; it has not run. Its pre-registration is committed by hash in [public-commitments/experiments/EXP-0046.commitment.json](public-commitments/experiments/EXP-0046.commitment.json), published before the run. Its design and decision rule are withheld until the result is published.
+- **Result.** The pre-registered decision rule passed (six gates). With its new adapter the mind passed 246 of 400 held-out tasks against 221 for the plain model (+6.25 points, one-sided exact McNemar p 0.0023; the repeated plain model scored 230, a +2.25-point movement). Its kernel code, identity, memories and other records were byte-identical before and after (its experience record only gained promotion, training and registration records), all 63 training lines traced to its own verified passes, and the second model never received the adapter; 84 of its 100 answers ran out of their budget and it scored near its floor, so this check could barely detect harm. A pipeline bug was fixed after pre-registration and is recorded as a deviation. Its [public commitment](public-commitments/experiments/EXP-0046.commitment.json) was published before the run, and four revealed fields verify against it.
+- **What changed.** Neural learning can be requested by the mind and attached to it without touching its kernel or its other records, in this first small test.
+- **Next question.** Can a mature mind's learned skills be carried to, or regrown on, a new model?
+- **Full write-up.** [results/EXP-0046.md](results/EXP-0046.md)
 
 ---
 
