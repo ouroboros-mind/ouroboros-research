@@ -55,4 +55,6 @@ It does not prove that no trial run happened before the commitment, that the pri
 - Ledger checkpoint 2026-10-22: entry 94, covering EXP-0001 to EXP-0046.
 - Per-experiment commitments: [EXP-0047](experiments/EXP-0047.commitment.json), committed 2026-10-22 after its pre-registration and before its run. Its [reveal](experiments/EXP-0047.reveal.json) opens the same four fields. The commitment root is `d5544317650f2148cfe55bf3e5b866a4fa1b94a3ca37e94d9cd089dac2f7a5e5`. These fields prove only that they were bound by the pre-run commitment; they do not verify the withheld hypothesis, decision rule, methods or outcome.
 - Ledger checkpoint 2026-10-22: entry 96, covering EXP-0001 to EXP-0047.
+- Per-experiment commitments: [EXP-0048](experiments/EXP-0048.commitment.json), committed 2026-10-22 after its pre-registration and before its run. Its [reveal](experiments/EXP-0048.reveal.json) opens the same four fields. The commitment root is `8ac7c70dcb86f4607bd1e71d5a8bf75103bf3c52b170b1155df9e5adf6222c61`. These fields prove only that they were bound by the pre-run commitment; they do not verify the withheld hypothesis, decision rule, methods or outcome.
+- Ledger checkpoint 2026-10-23: entry 98, covering EXP-0001 to EXP-0048.
 - A third-party timestamp (for example OpenTimestamps) for each commitment is planned and not yet in place.

@@ -19,11 +19,11 @@ Labels follow each experiment's pre-registered decision rule, not how useful the
 | **INFRASTRUCTURE** | Measurement, tooling or calibration work. Not a capability claim |
 | **PENDING** | Pre-registered, has not run. Not counted in the totals |
 
-## Totals (EXP-0001 to EXP-0047)
+## Totals (EXP-0001 to EXP-0048)
 
 | SUPPORTED | PARTIAL | NOT SUPPORTED | INCONCLUSIVE | INFRASTRUCTURE | Total |
 |---:|---:|---:|---:|---:|---:|
-| 14 | 7 | 16 | 1 | 9 | 47 |
+| 14 | 8 | 16 | 1 | 9 | 48 |
 
 Experiments vary widely in scope, and seeds within an experiment are not independent replications, so these counts are not a success rate.
 
@@ -81,6 +81,7 @@ Experiments vary widely in scope, and seeds within an experiment are not indepen
 | [EXP-0045](#exp-0045) | 2026-10-21 | One mind, two model families | SUPPORTED |
 | [EXP-0046](#exp-0046) | 2026-10-22 | A neural skill without changing the mind | SUPPORTED |
 | [EXP-0047](#exp-0047) | 2026-10-22 | Brain migration | NOT SUPPORTED |
+| [EXP-0048](#exp-0048) | 2026-10-23 | Skill regrowth after migration | PARTIAL |
 
 ---
 
@@ -463,6 +464,14 @@ Goal: show that the persistent mind, not the model, is the individual.
 - **What changed.** Identity and records carried across this model replacement in a first small test. A skill compiled on the weaker model did not automatically help the stronger one, and the quarantine rule rejected the harmful regrowth as designed.
 - **Next question.** Can a migrated mind regrow a skill from the new model's own verified experience?
 - **Full write-up.** [results/EXP-0047.md](results/EXP-0047.md)
+
+### EXP-0048
+2026-10-23 · PARTIAL
+- **Question.** After moving to a stronger model, can the mind find out which skills still help, stop using the ones that do not, and regrow its skill from its own verified experience on the new model, doing at least as well as the new model alone?
+- **Result.** Classified PARTIAL. The pre-registered decision was "the skill regrew to match the new cortex, but validation did not remove the frame's cost". On 200 held-out validation tasks, the raw new model scored 165, the mind's frame with its old procedure scored 147, and without it scored 142, so the procedure was kept because it no longer hurt. The mind then lived 300 new tasks, with 203 first-attempt passes. Its new cache used only those verified passes from the new model. It scored 171 against 148 of 200 without it in its safety check and was accepted. On the 400-task final test, raw Qwen3.8-27B scored 326 and its raw repeat scored 322. The mind's frame without the cache scored 293, failing the frame-cost gate by 8.25 points. With its regrown cache it scored 351, a +14.5-point gain over the frame (p 1.3e-10) and +6.25 points over the raw model (52 tasks gained, 27 lost; one-sided p 0.0033). The kernel and pre-existing records were unchanged, every training line traced to a verified pass on the new model, the old model was unaffected (62 against 63 of 100 with its own cache), and the continuity battery scored 12 of 12 after the second session. No deviations occurred. Its [public commitment](public-commitments/experiments/EXP-0048.commitment.json) was published before the run, and four revealed fields verify against it.
+- **What changed.** A skill can regrow from the new model's own verified experience and beat that new model alone in this first test. The remaining cost is in the mind's working frame, not the old procedure.
+- **Next question.** Which part of the working frame costs the new model, and can frame parts be validated per model?
+- **Full write-up.** [results/EXP-0048.md](results/EXP-0048.md)
 
 ---
 
