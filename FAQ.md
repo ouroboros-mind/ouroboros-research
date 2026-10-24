@@ -6,7 +6,7 @@ A research program asking whether one persistent AI can grow throughout its life
 
 ### Is it an LLM?
 
-No. Ouroboros uses language models as a replaceable **cortex**. The persistent part, the Cognitive Kernel, holds identity, memory, skills, a world model, a self-model and a measured map of competencies, and is designed to talk to whichever model it uses through one contract, the Mind ABI. EXP-0048 regrew a skill from the new model's own verified experience and beat that new model alone, but the mind's working frame still had a cost. General model independence remains unproven. See [ARCHITECTURE.md](ARCHITECTURE.md).
+No. Ouroboros uses language models as a replaceable **cortex**. The persistent part, the Cognitive Kernel, holds identity, memory, skills, a world model, a self-model and a measured map of competencies, and is designed to talk to whichever model it uses through one contract, the Mind ABI. EXP-0048 regrew a skill from the new model's own verified experience and beat that new model alone. EXP-0049 found that a validated working frame still cost that model. General model independence remains unproven. See [ARCHITECTURE.md](ARCHITECTURE.md).
 
 ### Why not just memory or RAG?
 
@@ -14,7 +14,7 @@ Memory is part of it, and retrieval is the main memory path in our experiments t
 
 ### Does it work with any LLM?
 
-That is the design goal, and it has not been demonstrated. So far every learning experiment ran on one open-weight Qwen-family model. In EXP-0048, a cache regrown from the new model's own verified passes beat that new model alone. The remaining working-frame cost means this is only partial evidence for carrying learned capability across a model change.
+That is the design goal, and it has not been demonstrated. So far every learning experiment ran on one Qwen-family model. In EXP-0048, a cache regrown from the new model's own verified passes beat that new model alone. EXP-0049 found that a selected frame still cost that model. This remains only partial evidence for carrying learned capability across a model change.
 
 ### Is it self-improving?
 
@@ -42,7 +42,7 @@ Not today. Running a mature mind on gaming-class GPUs is a long-term research di
 
 ### How is it different from Letta?
 
-Letta (which grew out of MemGPT) already provides persistent, model-switchable agents with memory, skills and sleep-time compute. Ouroboros overlaps with that and claims no novelty for those capabilities. Its research focus is whether persistent cognitive state can become verified neural capability on open-weight models, and measuring behavior and capability after a model change. EXP-0048 found that a cache regrown from the new model's verified experience beat that new model alone, while the mind's frame still had a cost. This does not establish transfer or general model independence. See [PRIOR_ART.md](PRIOR_ART.md#letta-and-memgpt).
+Letta (which grew out of MemGPT) already provides persistent, model-switchable agents with memory, skills and sleep-time compute. Ouroboros overlaps with that and claims no novelty for those capabilities. Its research focus is whether persistent cognitive state can become verified neural capability, and measuring behavior and capability after a model change. EXP-0048 found that a cache regrown from the new model's verified experience beat that new model alone. EXP-0049 found that a selected working frame still cost the new model. This does not establish transfer or general model independence. See [PRIOR_ART.md](PRIOR_ART.md#letta-and-memgpt).
 
 ### How is it different from mini-AGI?
 

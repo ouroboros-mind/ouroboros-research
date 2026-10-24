@@ -39,7 +39,8 @@ The public roadmap is organized around research questions, not features. Each st
 
 - **First form supported.** EXP-0045 ran one mind on two models from different families; it kept its identity, memory, procedures and calibration. No weights moved, and the held-out tasks were too easy to measure skill effects.
 - **Partial.** EXP-0048 regrew a cache only from the new model's verified passes. It lifted the mind's frame from 293 to 351 of 400 held-out tasks and beat the raw model's 326. The frame without the cache scored 293, an 8.25-point cost that failed the frame-cost gate.
-- **Next:** find which part of the working frame costs the new model, and validate frame parts per model.
+- **Not supported.** EXP-0049 selected a model-specific frame by a frozen rule, but it scored 311 against 340 of 400 for raw. Its cache reached 344. In post hoc, ungated comparisons against raw, that result was a tie and the old full frame with the same cache reached 359. The candidate was not activated.
+- **Next:** proposed, owner decision pending: change frame presentation and regrow the skill inside each candidate frame.
 
 ## Stage F: Intelligence density
 
@@ -66,7 +67,8 @@ The public roadmap is organized around research questions, not features. Each st
 3. Transfer and breeding experiments for grown roots.
 4. EXP-0047: migration of a mature mind to a new cortex (done: continuity and rollback passed; capability migration not supported).
 5. EXP-0048: regrow and validate a skill from the new model's own verified experience (done: partial; skill regrowth passed, frame-cost gate failed).
-6. Find and validate the costly parts of the working frame per model.
+6. EXP-0049: find and validate the costly parts of the working frame per model (done: not supported; the selected frame still cost the new model).
+7. Change frame presentation and regrow the skill inside each candidate frame (proposed; owner decision pending).
 
 ## Planned demonstrations
 

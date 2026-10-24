@@ -19,11 +19,11 @@ Labels follow each experiment's pre-registered decision rule, not how useful the
 | **INFRASTRUCTURE** | Measurement, tooling or calibration work. Not a capability claim |
 | **PENDING** | Pre-registered, has not run. Not counted in the totals |
 
-## Totals (EXP-0001 to EXP-0048)
+## Totals (EXP-0001 to EXP-0049)
 
 | SUPPORTED | PARTIAL | NOT SUPPORTED | INCONCLUSIVE | INFRASTRUCTURE | Total |
 |---:|---:|---:|---:|---:|---:|
-| 14 | 8 | 16 | 1 | 9 | 48 |
+| 14 | 8 | 17 | 1 | 9 | 49 |
 
 Experiments vary widely in scope, and seeds within an experiment are not independent replications, so these counts are not a success rate.
 
@@ -82,6 +82,7 @@ Experiments vary widely in scope, and seeds within an experiment are not indepen
 | [EXP-0046](#exp-0046) | 2026-10-22 | A neural skill without changing the mind | SUPPORTED |
 | [EXP-0047](#exp-0047) | 2026-10-22 | Brain migration | NOT SUPPORTED |
 | [EXP-0048](#exp-0048) | 2026-10-23 | Skill regrowth after migration | PARTIAL |
+| [EXP-0049](#exp-0049) | 2026-10-24 | Validating the working frame | NOT SUPPORTED |
 
 ---
 
@@ -472,6 +473,14 @@ Goal: show that the persistent mind, not the model, is the individual.
 - **What changed.** A skill can regrow from the new model's own verified experience and beat that new model alone in this first test. The remaining cost is in the mind's working frame, not the old procedure.
 - **Next question.** Which part of the working frame costs the new model, and can frame parts be validated per model?
 - **Full write-up.** [results/EXP-0048.md](results/EXP-0048.md)
+
+### EXP-0049
+2026-10-24 · NOT SUPPORTED
+- **Question.** On the new model, which parts of the mind's working frame help or hurt, and can a validated, model-specific frame stay close to the raw model while the regrown skill adds on top?
+- **Result.** Classified NOT SUPPORTED. A balanced 16-configuration test of five frame parts on 200 fresh development tasks used one common request path, with prefix caching off and raw-model repeat runs. A frozen rule removed the procedure (-3.2 points) and thinking/resources line (-3.4), and kept the goal, self line and memories (memories +1.8). On 400 fresh final tasks, raw Qwen3.8-27B scored 340 and its repeat 339. The old full frame scored 308. The validated frame scored 311, 7.1 points below raw, so its frame gate failed. It gained 30 tasks and lost 27 against the old frame (p 0.40), so that gate also failed. Its regrown cache added 8.25 points inside the validated frame (50 gained, 17 lost; p 3.4e-5), but scored 344 against raw's 340. A secret rotating test across four unseen task families passed for the frame (147 against raw's 141); the cache added 1.5 points there (p 0.39), so transfer was not shown. General capability checks, the 12-of-12 identity battery, the frozen selection rule and the unchanged stored mind all passed. Five pre-registration amendments were each committed before the code they fixed ran. The candidate profile was not activated. Its [public commitment](public-commitments/experiments/EXP-0049.commitment.json), amendments and selection commitment were published before their governed work, and four revealed fields verify against the original commitment.
+- **What changed.** The frame still costs the new model. Removing parts one at a time did not remove that cost. In a post hoc comparison, the skill added more inside the full frame where it grew than inside the validated one, which is consistent with frame and skill co-adaptation.
+- **Next question.** Proposed, owner decision pending: change the frame's placement, compression and memory policy, with the skill regrown inside each candidate frame. Cross-family skill regrowth waits for that.
+- **Full write-up.** [results/EXP-0049.md](results/EXP-0049.md)
 
 ---
 

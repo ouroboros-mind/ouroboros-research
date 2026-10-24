@@ -9,7 +9,7 @@
 
 <p align="center">
   Research Preview 0.1 ·
-  <a href="results/EXP-0048.md">Latest result</a> ·
+  <a href="results/EXP-0049.md">Latest result</a> ·
   <a href="results/EXP-0044.md">Growth result</a> ·
   <a href="EXPERIMENTS.md">Experiment ledger</a> ·
   <a href="ROADMAP.md">Roadmap</a> ·
@@ -75,7 +75,7 @@ The continuity checks passed in this test; skills must be re-validated on the ne
 <td colspan="2" valign="top">
 
 **EXP-0048 · Skill regrowth after migration**<br>
-PARTIAL · latest result
+PARTIAL
 
 After moving to Qwen3.8-27B, the mind lived 300 new tasks and regrew a cache only from its verified passes there. The protected evaluator accepted it. On 400 held-out tasks, the regrown cache lifted the mind's frame from **293 to 351** (**+14.5 points**, p 1.3e-10) and beat the raw model's **326** by **+6.25 points** (p 0.0033). But the frame without the cache cost **8.25 points** against raw, so the frame-cost gate failed.
 
@@ -83,9 +83,21 @@ Skill regrowth carried across this model change. The remaining problem is the mi
 
 </td>
 </tr>
+<tr>
+<td colspan="2" valign="top">
+
+**EXP-0049 · Validating the working frame**<br>
+NOT SUPPORTED (first form) · latest result
+
+The frame's five parts were tested in balanced combinations before the final test. The frozen rule removed the procedure and thinking/resources line, but kept the goal, self line and memories. On 400 held-out tasks, the validated frame scored **311** against **340** for the raw model. Its regrown cache raised it to **344**. In post hoc, ungated comparisons against raw, the validated-frame result was a tie and the old full frame with the same cache scored **359**.
+
+The frame still costs the new model. The post hoc comparison is consistent with frame and skill co-adaptation. [Write-up](results/EXP-0049.md)
+
+</td>
+</tr>
 </table>
 
-**Not yet shown:** transfer outside a trained territory (an earlier test was negative), whether regrowth works outside this territory or without the costly frame, better breeders (generations that get better at producing successors), and recursive meta-improvement.
+**Not yet shown:** transfer outside a trained territory (an earlier test was negative), a working frame that does not cost this model, skill regrowth across candidate frames, better breeders (generations that get better at producing successors), and recursive meta-improvement.
 
 <p align="center">
   <img src="assets/architecture.svg" alt="Conceptual architecture: a persistent Cognitive Kernel above a Mind ABI and replaceable model cortices, with a learning plane and a protected evaluation plane" width="100%">
@@ -95,20 +107,20 @@ Skill regrowth carried across this model change. The remaining problem is the mi
 
 | | |
 |---|---|
-| **Pre-registered experiments** | 48: 14 supported, 8 partial, 16 not supported, 1 inconclusive, 9 infrastructure ([ledger](EXPERIMENTS.md)) |
+| **Pre-registered experiments** | 49: 14 supported, 8 partial, 17 not supported, 1 inconclusive, 9 infrastructure ([ledger](EXPERIMENTS.md)) |
 | **Negative results** | All kept: every not-supported and inconclusive experiment is in the ledger with its outcome |
 | **Running estimate** | 58 percent after EXP-0047, down from 61 after EXP-0046. A subjective estimate, not a statistic ([odds log](ODDS.md)) |
-| **Latest result** | [EXP-0048](results/EXP-0048.md), skill regrowth after migration: partial. The regrown cache beat the new model alone; the mind's frame still had an 8.25-point cost |
+| **Latest result** | [EXP-0049](results/EXP-0049.md), validating the working frame: not supported. The validated frame still cost the new model and was not activated |
 | **Cortex independence** | [EXP-0045](results/EXP-0045.md), one mind across two model families, first form: supported |
 | **Strongest growth result** | [EXP-0044](results/EXP-0044.md), gated multi-round growth: supported in 3 of 3 lineages |
 | **Built and first tested** | Mind ABI, Experience Bus, portable genome format, Cognitive Kernel v0 (tested together in EXP-0045) |
-| **Public commitments** | Ledger checkpoints 2026-10-21, 2026-10-22 and 2026-10-23; pre-run commitments: [EXP-0046](public-commitments/experiments/EXP-0046.commitment.json), [EXP-0047](public-commitments/experiments/EXP-0047.commitment.json) and [EXP-0048](public-commitments/experiments/EXP-0048.commitment.json), each with four revealed fields that verify ([how it works](public-commitments/README.md)) |
-| **Next question** | Which part of the mind's working frame costs the new model, and can frame parts be validated per model? |
+| **Public commitments** | Ledger checkpoints through 2026-10-24; pre-run commitments: [EXP-0046](public-commitments/experiments/EXP-0046.commitment.json), [EXP-0047](public-commitments/experiments/EXP-0047.commitment.json), [EXP-0048](public-commitments/experiments/EXP-0048.commitment.json) and [EXP-0049](public-commitments/experiments/EXP-0049.commitment.json), with EXP-0049 amendments and selection also published before their governed work ([how it works](public-commitments/README.md)) |
+| **Next question** | Can a different presentation of the frame work with a skill regrown inside that frame? Proposed; owner decision pending |
 | **What we do not claim** | Not AGI. Not unrestricted self-improvement. We have no evidence that Ouroboros is sentient, and we make no such claim. |
 
 ### Known limits
 
-- **Model-specific validation.** In EXP-0048, a cache regrown from Qwen3.8-27B's verified passes helped there. The mind's working frame still cost the new model 8.25 points without that cache.
+- **Model-specific validation.** In EXP-0049, a validated frame still cost Qwen3.8-27B. Its regrown cache helped inside that frame, but did not beat the raw model.
 - **Narrow and short.** The growth result covers two rounds, inside one internally generated territory of programming tasks.
 - **Transfer unmeasured.** Gains outside the trained territory were not measured, and an earlier transfer test was negative ([EXP-0041](EXPERIMENTS.md#exp-0041)).
 - **Forgetting was measured, not zero.** It stayed below 0.01 on the forgetting probe for every accepted candidate. That does not rule out forgetting outside the probe.
@@ -143,16 +155,16 @@ Most of these ideas exist in earlier work ([PRIOR_ART.md](PRIOR_ART.md)), and Ou
 | Hypothesis | Status |
 |---|---|
 | A persistent individual with its own history and lineage | Partial: memory over a twelve-day synthetic run passed its gate; kernel built |
-| A replaceable cortex: behavior and capability survive a model swap | Partial: identity, memory, procedures and calibration survived a swap between two families (EXP-0045). In EXP-0048, a skill regrown from the new model's verified experience beat that model alone, but the working frame still had a cost |
+| A replaceable cortex: behavior and capability survive a model swap | Partial: identity, memory, procedures and calibration survived a swap between two families (EXP-0045). EXP-0049 found that a validated working frame still cost the new model. In a post hoc comparison, the earlier full frame and its regrown cache beat raw |
 | Verified learning: changes are kept only when held-out checks say so | In use on one model (author-reported) |
 | Capability compilation: recurring reasoning becomes cheaper skills | Partial: narrow skills learned; transfer not shown |
 | Multi-timescale learning with different safeguards per speed | Partial: memory and adapter tiers exercised; slower tiers not started |
 | Protected evaluation outside the learning system's reach | In use (author-reported; not externally audited) |
 | Local deployment on hardware an individual owns | Long-term direction: no fixed hardware target; full per-generation resource records start with EXP-0046 |
 
-## Latest result: EXP-0048
+## Latest result: EXP-0049
 
-Classified PARTIAL. The pre-registered decision was "the skill regrew to match the new cortex, but validation did not remove the frame's cost". The migrated mind lived 300 new tasks on Qwen3.8-27B and regrew a cache only from its verified passes there. Its safety check scored 171 against 148 of 200 without it, so it was accepted. On the 400-task final test, the mind's frame without the cache scored 293 against 326 for the raw model, failing the frame-cost gate by 8.25 points. With the regrown cache it scored 351, a gain of 14.5 points over its frame and 6.25 points above the raw model. This is the first time the mind on a stronger model beat that model alone. The kernel and pre-existing records were unchanged, the old model was unaffected, and the continuity battery again scored 12 of 12. Full write-up: [results/EXP-0048.md](results/EXP-0048.md).
+Classified NOT SUPPORTED. A balanced test of five frame parts removed two under a frozen rule, but the validated frame scored 311 against 340 of 400 for the raw model. Its regrown cache scored 344. In post hoc, ungated comparisons against raw, that was a tie and the old full frame with the cache scored 359. The selection rule, stored mind, general capability checks and 12-of-12 identity battery passed. The candidate was not activated. Full write-up: [results/EXP-0049.md](results/EXP-0049.md).
 
 ## Cortex independence: EXP-0045
 
@@ -223,6 +235,7 @@ Full write-up: [results/EXP-0044.md](results/EXP-0044.md).
 | Neural learning without changing the mind | Supported in a first small test | [EXP-0046](results/EXP-0046.md): +6.25 points on one model (plain repeat +2.25); kernel and other records unchanged; second-model check weak |
 | Brain migration | Not supported in a first small test | [EXP-0047](results/EXP-0047.md): continuity and rollback passed, but capability did not; harmful cache regrowth was refused |
 | Skill regrowth after migration | Partial in a first small test | [EXP-0048](results/EXP-0048.md): regrown cache beat the stronger model alone, but the mind's frame-cost gate failed |
+| Validated working frame | Not supported in a first small test | [EXP-0049](results/EXP-0049.md): the selected frame still cost the new model and was not activated |
 | Consumer-hardware mind | Long-term research direction | No fixed hardware target; full per-generation resource records start with EXP-0046 |
 | Recursive meta-improvement | Moonshot | Not started |
 | Frontier-like local AI | Moonshot | Not started |
