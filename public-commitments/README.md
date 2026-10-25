@@ -20,6 +20,8 @@ Ouroboros pre-registers every experiment in a private, hash-chained ledger befor
 
 A commitment is pushed to this repository before the run starts. GitHub records when each push arrives, independently of the commit's own date.
 
+From EXP-0050 on, each commitment is submitted to OpenTimestamps before the run. The proof sits beside the commitment as `<name>.ots`. A new proof remains pending until a calendar supplies its path to a Bitcoin attestation, usually within a few hours. From `public-commitments`, install the standard client with `pip install opentimestamps-client`, inspect the proof with `ots info experiments/EXP-0050.commitment.json.ots`, upgrade it in place with `ots upgrade experiments/EXP-0050.commitment.json.ots`, and verify it with `ots verify experiments/EXP-0050.commitment.json.ots`. Bitcoin verification with client 0.7 requires access to a Bitcoin Core node.
+
 ## How it can be checked later
 
 - **Selected fields, in public.** For a published result, the project can reveal chosen fields (for example the hypothesis and the decision rule) with their salts and Merkle paths. Anyone runs `python3 commitment.py verify COMMITMENT.json REVEAL.json`. Fields that stay private, such as evaluation details, stay hidden and are still bound by the same root.
@@ -59,4 +61,5 @@ It does not prove that no trial run happened before the commitment, that the pri
 - Ledger checkpoint 2026-10-23: entry 98, covering EXP-0001 to EXP-0048.
 - Per-experiment commitments: [EXP-0049](experiments/EXP-0049.commitment.json), committed 2026-10-23 after its pre-registration and before its run. Its [reveal](experiments/EXP-0049.reveal.json) opens the same four fields. Five [amendments](experiments/) and a [selection commitment](experiments/EXP-0049.selection.json) were published before the work each governed. These fields prove only that they were bound by the pre-run commitment; they do not verify the withheld hypothesis, decision rule, methods or outcome.
 - Ledger checkpoint 2026-10-24: entry 105, covering EXP-0001 to EXP-0049.
-- A third-party timestamp (for example OpenTimestamps) for each commitment is planned and not yet in place.
+- Per-experiment commitments: [EXP-0050](experiments/EXP-0050.commitment.json), committed 2026-10-25 after its pre-registration and before its run, with its pending OpenTimestamps proof [EXP-0050.commitment.json.ots](experiments/EXP-0050.commitment.json.ots), the first commitment submitted for a third-party timestamp. The commitment root is `cdcce98fcce503a0e06ac05bb782f4240ee56cd2f138524fc1ef8fca95e5e1b4`. A selection commitment will be published and submitted to OpenTimestamps before the work it governs.
+- Commitments before EXP-0050 rely on GitHub push times only; they have no third-party timestamp.

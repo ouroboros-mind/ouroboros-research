@@ -1,0 +1,27 @@
+{
+  "format": "ouroboros-commitment-v1",
+  "experiment_id": "EXP-0050",
+  "committed_at": "2026-10-25T08:10:11+00:00",
+  "fields": [
+    "artifact_hashes",
+    "changed_component",
+    "checkpoint_hashes",
+    "created_at",
+    "dataset_hashes",
+    "decision",
+    "evaluation_suites",
+    "experiment_id",
+    "hypothesis",
+    "notes",
+    "parent_generation",
+    "reason",
+    "resource_budget",
+    "result",
+    "runtime_versions",
+    "schema_version",
+    "status",
+    "stop_condition",
+    "training_recipe"
+  ],
+  "merkle_root": "cdcce98fcce503a0e06ac05bb782f4240ee56cd2f138524fc1ef8fca95e5e1b4"
+}
