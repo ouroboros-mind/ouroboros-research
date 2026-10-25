@@ -1,0 +1,7 @@
+{
+  "format": "ouroboros-selection-v1",
+  "experiment_id": "EXP-0050",
+  "selection_sha256": "a5a2de5a03111ee6db4cf4a57b04dc435875b8a51f33de33c6ce051d2736f422",
+  "committed_at": "2026-10-25T14:52:18+00:00",
+  "note": "a hash published before the test"
+}
