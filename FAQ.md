@@ -58,7 +58,7 @@ No. Code, task sets, datasets, training procedures, weights and the ledger are p
 
 ### Is the record tamper-proof?
 
-Tamper-evident, from EXP-0050 on. Each public commitment, and each ledger checkpoint from 2026-10-26, is anchored to the Bitcoin blockchain through OpenTimestamps. Once a Bitcoin block confirms a proof, changing the committed file after that block would be detectable by anyone, without trusting this repository. The anchor proves only that the hash existed no later than that block. It does not prove when the work started, and the private ledger stays private. See [a record anchored to Bitcoin](README.md#a-record-anchored-to-bitcoin).
+Tamper-evident once confirmed. From EXP-0050 on, each public commitment, and from 2026-10-26 each ledger checkpoint, is submitted to OpenTimestamps. Once a Bitcoin block confirms a proof, changing the committed file after that block would be detectable by anyone, without trusting this repository. A confirmed anchor proves only that the hash existed no later than that block. It does not prove when the work started, and the private ledger stays private. See [Anchored in Bitcoin](README.md#anchored-in-bitcoin).
 
 ### How can researchers get involved?
 

@@ -2,7 +2,7 @@
 
 This is the public summary of the Ouroboros experiment ledger. The private ledger is append-only and hash-chained, and every experiment is pre-registered before it runs. Rejected, null and aborted runs stay in the record. Negative results are evidence.
 
-The ledger itself, the task sets, the training procedure and raw results are private. Pre-registration timing and ledger integrity are author-reported and cannot be verified from this repository. The author reports that, from EXP-0046 on, pre-registrations were committed by hash before they ran; from EXP-0050 on, those commitments, and from 2026-10-26 the ledger checkpoints, are also anchored to the Bitcoin blockchain as a tamper-evident record ([how it works](README.md#a-record-anchored-to-bitcoin)). See [what you can and cannot verify](README.md#what-you-can-and-cannot-verify).
+The ledger itself, the task sets, the training procedure and raw results are private. Pre-registration timing and ledger integrity are author-reported and cannot be verified from this repository. The author reports that, from EXP-0046 on, pre-registrations were committed by hash before they ran; from EXP-0050 on, those commitments, and from 2026-10-26 the ledger checkpoints, are also submitted to OpenTimestamps. Once a proof confirms in a Bitcoin block, it makes the corresponding record tamper-evident ([how it works](README.md#anchored-in-bitcoin)). See [what you can and cannot verify](README.md#what-you-can-and-cannot-verify).
 
 This page lists **every** experiment, in order, including the failures. Where a protocol touches material under IP review, the entry gives a safe summary and says so. Dates are pre-registration dates (UTC).
 
