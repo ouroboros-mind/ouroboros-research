@@ -115,7 +115,7 @@ The frame still costs the new model. The post hoc comparison is consistent with 
 | **Cortex independence** | [EXP-0045](results/EXP-0045.md), one mind across two model families, first form: supported |
 | **Strongest growth result** | [EXP-0044](results/EXP-0044.md), gated multi-round growth: supported in 3 of 3 lineages |
 | **Built and first tested** | Mind ABI, Experience Bus, portable genome format, Cognitive Kernel v0 (tested together in EXP-0045) |
-| **Public commitments** | Ledger checkpoints through 2026-10-24; pre-run commitments: [EXP-0046](public-commitments/experiments/EXP-0046.commitment.json), [EXP-0047](public-commitments/experiments/EXP-0047.commitment.json), [EXP-0048](public-commitments/experiments/EXP-0048.commitment.json) and [EXP-0049](public-commitments/experiments/EXP-0049.commitment.json), with EXP-0049 amendments and selection also published before their governed work ([how it works](public-commitments/README.md)) |
+| **Public commitments** | Ledger checkpoints through 2026-10-26; pre-run commitments: [EXP-0046](public-commitments/experiments/EXP-0046.commitment.json), [EXP-0047](public-commitments/experiments/EXP-0047.commitment.json), [EXP-0048](public-commitments/experiments/EXP-0048.commitment.json), [EXP-0049](public-commitments/experiments/EXP-0049.commitment.json) and [EXP-0050](public-commitments/experiments/EXP-0050.commitment.json), with EXP-0049 and EXP-0050 amendments and selections also published before their governed work. From EXP-0050 on, each is anchored to the Bitcoin blockchain as a tamper-evident record ([how it works](#a-record-anchored-to-bitcoin)) |
 | **Next question** | Can a different presentation of the frame work with a skill regrown inside that frame? Proposed; owner decision pending |
 | **What we do not claim** | Not AGI. Not unrestricted self-improvement. We have no evidence that Ouroboros is sentient, and we make no such claim. |
 
@@ -268,11 +268,16 @@ From amendment 2 on, the work a commitment governs starts only after its block c
 
 The raw data, task sets, training procedure, code and the experiment ledger itself are private. Numbers on these pages are copied from that author-maintained ledger. Contamination checks and ledger integrity are author-reported. Pre-registration timing is author-reported for EXP-0001 to EXP-0045; from EXP-0046 on, each pre-registration is committed here by hash before it runs.
 
+### A record anchored to Bitcoin
+
+From EXP-0050 on, every public commitment, and from 2026-10-26 every ledger checkpoint, is anchored to the Bitcoin blockchain through [OpenTimestamps](https://opentimestamps.org). Only a hash goes into the anchor, never the content. Once a Bitcoin block confirms that hash, the committed pre-registration, amendment or ledger state cannot be changed after that block without the change being detectable, so the anchors work as a tamper-evident public record that does not depend on trusting this repository or its author. Each proof sits beside its file as `<name>.ots`, and `python3 public-commitments/anchors.py check public-commitments/experiments/*.ots public-commitments/ledger-checkpoints.json.ots` checks every proof against the Bitcoin block headers reported by two public block explorers, without running a node. An anchor shows that a hash existed no later than the time its block was mined. It does not show how early the work began, and it does not make the private ledger readable. Commitments before EXP-0050 rely on GitHub push times only.
+
 | You can | You cannot |
 |---|---|
 | Check internal consistency, for example that the EXP-0044 p-values recompute from the published gained and lost task counts | Reproduce any experiment from this repository |
 | From EXP-0046 on, check that a revealed pre-registration field matches a commitment published before the run ([public commitments](public-commitments/README.md)) | Verify the pre-run timing of EXP-0001 to EXP-0045, which predate the commitments |
 | See every experiment, including negative and inconclusive ones | Inspect the task sets, the training procedure or raw results |
+| From EXP-0050 on, check that each commitment file and the newest ledger checkpoint existed no later than the Bitcoin block that confirms its proof | Read what an anchored hash commits to before its fields are revealed |
 | Test the claims independently on your own tasks and models | Rule out a trial run before a commitment; the author controls both the ledger and the timing |
 
 Replication reports, positive or negative, are welcome: see [CONTRIBUTING.md](CONTRIBUTING.md).

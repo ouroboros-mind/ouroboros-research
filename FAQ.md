@@ -56,6 +56,10 @@ The core implementation is private and there are no current plans to release it.
 
 No. Code, task sets, datasets, training procedures, weights and the ledger are private, so experiments cannot be reproduced or audited from this repository. Pre-registration timing is author-reported for EXP-0001 to EXP-0045; from EXP-0046 on, each pre-registration is committed by hash in [public-commitments/](public-commitments/README.md) before it runs, so its content can be checked when fields are revealed. The general claims can still be tested independently on your own tasks and models. Replication reports, positive or negative, are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md).
 
+### Is the record tamper-proof?
+
+Tamper-evident, from EXP-0050 on. Each public commitment, and each ledger checkpoint from 2026-10-26, is anchored to the Bitcoin blockchain through OpenTimestamps. Once a Bitcoin block confirms a proof, changing the committed file after that block would be detectable by anyone, without trusting this repository. The anchor proves only that the hash existed no later than that block. It does not prove when the work started, and the private ledger stays private. See [a record anchored to Bitcoin](README.md#a-record-anchored-to-bitcoin).
+
 ### How can researchers get involved?
 
 Open a discussion or an issue with a research question, a replication report, a benchmark suggestion or a prior-art reference.

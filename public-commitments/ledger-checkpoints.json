@@ -1,6 +1,6 @@
 {
   "format": "ouroboros-ledger-checkpoint-v1",
-  "note": "Each checkpoint is the hash of one entry in the private, append-only, hash-chained experiment ledger. Because every entry's hash covers the previous entry's hash, a checkpoint fixes every entry up to and including it. Checkpoints prove nothing about entries before the date they were first published here.",
+  "note": "Each checkpoint is the hash of one entry in the private, append-only, hash-chained experiment ledger. Because every entry's hash covers the previous entry's hash, a checkpoint fixes every entry up to and including it. Checkpoints prove nothing about entries before the date they were first published here. From 2026-10-26 each published version of this file is submitted to OpenTimestamps, and its proof ledger-checkpoints.json.ots anchors the newest checkpoint to a Bitcoin block.",
   "checkpoints": [
     {
       "date": "2026-10-21",
@@ -36,6 +36,13 @@
       "entries": 106,
       "covers": "EXP-0001 to EXP-0049: 49 pre-registrations, 5 pre-registration amendments, 49 outcome records (48 completed, 1 aborted), 2 generation records and 1 baseline record",
       "entry_sha256": "d8e24a834d078020351d898347c73149841cbbe4ede2297a5e86e310dfb70883"
+    },
+    {
+      "date": "2026-10-26",
+      "seq": 108,
+      "entries": 109,
+      "covers": "EXP-0001 to EXP-0050: 50 pre-registrations, 7 pre-registration amendments, 49 outcome records (48 completed, 1 aborted), 2 generation records and 1 baseline record",
+      "entry_sha256": "3cc8de0f054e3faa9dc5482c65b50a9d480e888746d15b8f99ea71e2008b5b38"
     }
   ]
 }
