@@ -16,6 +16,7 @@
   <a href="ODDS.md">Odds log</a> ·
   <a href="ARCHITECTURE.md">Architecture</a> ·
   <a href="PRIOR_ART.md">Prior art</a> ·
+  <a href="#anchored-in-bitcoin">Bitcoin anchors</a> ·
   <a href="public-commitments/README.md">Public commitments</a> ·
   <a href="FAQ.md">FAQ</a>
 </p>
@@ -249,6 +250,19 @@ Full write-up: [results/EXP-0044.md](results/EXP-0044.md).
 5. Can a world model and a self-model stay accurate when the model underneath them is upgraded?
 
 More: [RESEARCH_QUESTION.md](RESEARCH_QUESTION.md).
+
+## Anchored in Bitcoin
+
+From EXP-0050 on, every pre-run commitment is timestamped with [OpenTimestamps](https://opentimestamps.org) and anchored in a Bitcoin block. Once the block is mined, nobody, including us, can change the commitment or backdate it without the change being detectable. Only the hash goes on the chain. The ledger, data and code stay private.
+
+| Commitment | Bitcoin block |
+|---|---|
+| EXP-0050 | 973045 (2026-10-25 08:55 UTC) |
+| EXP-0050 amendment 1 | 973077 (2026-10-25 13:45 UTC) |
+| EXP-0050 selection | 973088 (2026-10-25 15:21 UTC) |
+| EXP-0050 amendment 2 | 973246 (2026-10-26 14:00 UTC), confirmed before its work started |
+
+From amendment 2 on, the work a commitment governs starts only after its block confirms. Commitments before EXP-0050 rely on GitHub push times only. An anchor proves a commitment existed by that block's time. It does not prove the private ledger is complete. Details and verification steps: [public commitments](public-commitments/README.md).
 
 ## What you can and cannot verify
 
