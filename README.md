@@ -262,6 +262,7 @@ From EXP-0050 on, every public commitment, and from 2026-10-26 every ledger chec
 | EXP-0050 selection | 973088 (2026-10-25 15:21) |
 | EXP-0050 amendment 2 | 973246 (2026-10-26 14:00), confirmed before its work started |
 | EXP-0050 amendment 3 | 973311 (2026-10-26 23:53), confirmed before its work started |
+| EXP-0050 amendment 4 | 973414 (2026-10-27 15:14), confirmed before its work started |
 | Ledger checkpoint at entry 108, covering EXP-0001 to EXP-0050 | 973290 (2026-10-26 21:04) |
 
 The first three proofs were submitted before the work they govern and confirmed after that work had begun, so for them the OpenTimestamps calendar receipt and the GitHub push time, not the block, show that they came first. From amendment 2 on, the work a commitment governs starts only after its block confirms.
