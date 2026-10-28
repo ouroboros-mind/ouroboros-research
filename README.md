@@ -128,7 +128,7 @@ The re-presented frame with its regrown skill beat the raw model on familiar tas
 | **Strongest growth result** | [EXP-0044](results/EXP-0044.md), gated multi-round growth: supported in 3 of 3 lineages |
 | **Built and first tested** | Mind ABI, Experience Bus, portable genome format, Cognitive Kernel v0 (tested together in EXP-0045) |
 | **Public commitments** | Ledger checkpoint [entry 111](public-commitments/ledger-checkpoints.json), with 112 entries, published with this result; its OpenTimestamps proof is pending. [EXP-0050's reveal](public-commitments/experiments/EXP-0050.reveal.json) verifies four fields against its original commitment ([how it works](#anchored-in-bitcoin)) |
-| **Next question** | Why did the regrown skill hurt unseen families and fail quarantine while the presentation alone helped? Proposed; owner decision pending |
+| **Next question** | Why did the regrown skill hurt unseen families and fail quarantine while the presentation alone helped on familiar families? Proposed; owner decision pending |
 | **What we do not claim** | Not AGI. Not unrestricted self-improvement. We have no evidence that Ouroboros is sentient, and we make no such claim. |
 
 ### Known limits

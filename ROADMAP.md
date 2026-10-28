@@ -41,7 +41,7 @@ The public roadmap is organized around research questions, not features. Each st
 - **Partial.** EXP-0048 regrew a cache only from the new model's verified passes. It lifted the mind's frame from 293 to 351 of 400 held-out tasks and beat the raw model's 326. The frame without the cache scored 293, an 8.25-point cost that failed the frame-cost gate.
 - **Not supported.** EXP-0049 selected a model-specific frame by a frozen rule, but it scored 311 against 340 of 400 for raw. Its cache reached 344. In post hoc, ungated comparisons against raw, that result was a tie and the old full frame with the same cache reached 359. The candidate was not activated.
 - **Not supported.** EXP-0050 re-presented the same stored mind through a frozen selection rule. On familiar task families, the presentation scored above raw and its regrown skill added a small gain. Both regrown skills were refused in quarantine, and the combined artifact regressed on unseen families.
-- **Next:** proposed, owner decision pending: find why the regrown skill hurt unseen families and failed quarantine while the presentation alone helped. Test more varied experience, more than one training run per presentation, and unseen-family transfer before accepting a skill.
+- **Next:** proposed, owner decision pending: find why the regrown skill hurt unseen families and failed quarantine while the presentation alone helped on familiar families. Test more varied experience, more than one training run per presentation, and unseen-family transfer before accepting a skill.
 
 ## Stage F: Intelligence density
 

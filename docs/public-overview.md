@@ -19,7 +19,7 @@ In its most recent growth experiment, EXP-0044, three seeded skill lineages on o
 | Evidence standard | Every experiment pre-registered in a private, author-maintained ledger; negative results published |
 | Experiments to date | 50, all listed with their outcomes |
 | Latest result | EXP-0050: re-presenting the working frame, not supported. The familiar-family gain did not hold on unseen families, and both regrown skills were refused in quarantine |
-| Next question | Proposed, owner decision pending: why the regrown skill hurt unseen families and failed quarantine while the presentation alone helped |
+| Next question | Proposed, owner decision pending: why the regrown skill hurt unseen families and failed quarantine while the presentation alone helped on familiar families |
 | Hardware | A GX10-class (NVIDIA GB10) research workstation; gaming-class GPUs are a long-term direction |
 | Code and data | Private. This public repository holds the research record |
 
