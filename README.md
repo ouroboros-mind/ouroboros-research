@@ -127,7 +127,7 @@ The re-presented frame with its regrown skill beat the raw model on familiar tas
 | **Cortex independence** | [EXP-0045](results/EXP-0045.md), one mind across two model families, first form: supported |
 | **Strongest growth result** | [EXP-0044](results/EXP-0044.md), gated multi-round growth: supported in 3 of 3 lineages |
 | **Built and first tested** | Mind ABI, Experience Bus, portable genome format, Cognitive Kernel v0 (tested together in EXP-0045) |
-| **Public commitments** | Ledger checkpoint [entry 111](public-commitments/ledger-checkpoints.json), with 112 entries, published with this result; its OpenTimestamps proof is pending. [EXP-0050's reveal](public-commitments/experiments/EXP-0050.reveal.json) verifies four fields against its original commitment ([how it works](#anchored-in-bitcoin)) |
+| **Public commitments** | Ledger checkpoint [entry 111](public-commitments/ledger-checkpoints.json), with 112 entries, published with this result; its OpenTimestamps proof is confirmed in Bitcoin block 973554. [EXP-0050's reveal](public-commitments/experiments/EXP-0050.reveal.json) verifies four fields against its original commitment ([how it works](#anchored-in-bitcoin)) |
 | **Next question** | Why did the regrown skill hurt unseen families and fail quarantine while the presentation alone helped on familiar families? Proposed; owner decision pending |
 | **What we do not claim** | Not AGI. Not unrestricted self-improvement. We have no evidence that Ouroboros is sentient, and we make no such claim. |
 
@@ -277,9 +277,9 @@ From EXP-0050 on, every public commitment, and from 2026-10-26 every ledger chec
 | EXP-0050 amendment 3 | 973311 (2026-10-26 23:53), confirmed before its work started |
 | EXP-0050 amendment 4 | 973414 (2026-10-27 15:14), confirmed before its work started |
 | [Ledger checkpoint at entry 108](public-commitments/checkpoint-history/ledger-checkpoints.seq108.json), covering EXP-0001 to EXP-0050 | 973290 (2026-10-26 21:04) |
-| [Ledger checkpoint at entry 111](public-commitments/ledger-checkpoints.json), covering EXP-0001 to EXP-0050 | [Proof pending](public-commitments/ledger-checkpoints.json.ots) |
+| [Ledger checkpoint at entry 111](public-commitments/ledger-checkpoints.json), covering EXP-0001 to EXP-0050 | 973554 (2026-10-28 12:48) |
 
-The first three proofs were submitted before the work they govern and confirmed after that work had begun, so for them the OpenTimestamps calendar receipt and the GitHub push time, not the block, show that they came first. From amendment 2 on, the work a commitment governs starts only after its block confirms. The entry-111 checkpoint proof is pending and is not yet confirmed in a Bitcoin block.
+The first three proofs were submitted before the work they govern and confirmed after that work had begun, so for them the OpenTimestamps calendar receipt and the GitHub push time, not the block, show that they came first. From amendment 2 on, the work a commitment governs starts only after its block confirms.
 
 Each proof sits beside its file as `<name>.ots`. To check every proof against the Bitcoin block headers reported by two public block explorers, without running a node: `python3 public-commitments/anchors.py check public-commitments/experiments/*.ots public-commitments/ledger-checkpoints.json.ots`.
 
