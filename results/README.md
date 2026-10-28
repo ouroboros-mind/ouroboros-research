@@ -4,6 +4,7 @@ Detailed write-ups of selected experiments. Every experiment, including the nega
 
 | Result | Date | Outcome | One line |
 |---|---|---|---|
+| [EXP-0050](EXP-0050.md) | 2026-10-28 | NOT SUPPORTED | A frozen rule chose one presentation of the stored mind before the test. It scored 734 against a raw reference of 670.5 on 800 fresh tasks, and its regrown skill reached 744. Both regrown skills were refused in quarantine. On 200 unseen tasks, the combined artifact scored 141 against raw's 156; the familiar-family gain did not transfer |
 | [EXP-0049](EXP-0049.md) | 2026-10-24 | NOT SUPPORTED | A frozen selection rule removed two frame parts, but the validated frame scored 311 against raw's 340 of 400. Its regrown cache reached 344. In post hoc, ungated comparisons against raw, that was a tie and the old full frame with the same cache reached 359; first form |
 | [EXP-0048](EXP-0048.md) | 2026-10-23 | PARTIAL | The regrown cache, trained only from verified passes on the new model, raised the mind's frame from 293 to 351 of 400 and beat the raw model's 326. The frame-cost gate failed at 8.25 points; first form |
 | [EXP-0047](EXP-0047.md) | 2026-10-22 | NOT SUPPORTED | The pre-registered migration decision was negative: identity continuity passed (12 of 12 on both models, 0 of 12 without the mind), but capability did not. The harmful regrown cache was refused after its check and never registered; rollback passed; first form |

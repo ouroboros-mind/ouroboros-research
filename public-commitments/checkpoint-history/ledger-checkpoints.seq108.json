@@ -1,0 +1,48 @@
+{
+  "format": "ouroboros-ledger-checkpoint-v1",
+  "note": "Each checkpoint is the hash of one entry in the private, append-only, hash-chained experiment ledger. Because every entry's hash covers the previous entry's hash, a checkpoint fixes every entry up to and including it. Checkpoints prove nothing about entries before the date they were first published here. From 2026-10-26 each published version of this file is submitted to OpenTimestamps, and its proof ledger-checkpoints.json.ots anchors the newest checkpoint to a Bitcoin block.",
+  "checkpoints": [
+    {
+      "date": "2026-10-21",
+      "seq": 92,
+      "entries": 93,
+      "covers": "EXP-0001 to EXP-0045: 45 pre-registrations, 45 outcome records (44 completed, 1 aborted), 2 generation records and 1 baseline record",
+      "entry_sha256": "5e18de85c4d5306d548f1062f5949a3612eed04f5999621f2e94aef7a3bf1224"
+    },
+    {
+      "date": "2026-10-22",
+      "seq": 94,
+      "entries": 95,
+      "covers": "EXP-0001 to EXP-0046: 46 pre-registrations, 46 outcome records (45 completed, 1 aborted), 2 generation records and 1 baseline record",
+      "entry_sha256": "c5ad582f8b641db5513edd8005c8f51edcb9a32d6736ed45db45bc4ca94936e9"
+    },
+    {
+      "date": "2026-10-22",
+      "seq": 96,
+      "entries": 97,
+      "covers": "EXP-0001 to EXP-0047: 47 pre-registrations, 47 outcome records (46 completed, 1 aborted), 2 generation records and 1 baseline record",
+      "entry_sha256": "d9055f27304ee7f95729d8ae9e362b040348d469d8fdf57a66b85893e34e8e40"
+    },
+    {
+      "date": "2026-10-23",
+      "seq": 98,
+      "entries": 99,
+      "covers": "EXP-0001 to EXP-0048: 48 pre-registrations, 48 outcome records (47 completed, 1 aborted), 2 generation records and 1 baseline record",
+      "entry_sha256": "909fcc61bb70a6a011fa76c4ed3c7231d6ac9932f0af10da2a3b2a465de174cc"
+    },
+    {
+      "date": "2026-10-24",
+      "seq": 105,
+      "entries": 106,
+      "covers": "EXP-0001 to EXP-0049: 49 pre-registrations, 5 pre-registration amendments, 49 outcome records (48 completed, 1 aborted), 2 generation records and 1 baseline record",
+      "entry_sha256": "d8e24a834d078020351d898347c73149841cbbe4ede2297a5e86e310dfb70883"
+    },
+    {
+      "date": "2026-10-26",
+      "seq": 108,
+      "entries": 109,
+      "covers": "EXP-0001 to EXP-0050: 50 pre-registrations, 7 pre-registration amendments, 49 outcome records (48 completed, 1 aborted), 2 generation records and 1 baseline record",
+      "entry_sha256": "3cc8de0f054e3faa9dc5482c65b50a9d480e888746d15b8f99ea71e2008b5b38"
+    }
+  ]
+}

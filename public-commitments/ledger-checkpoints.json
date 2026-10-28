@@ -43,6 +43,13 @@
       "entries": 109,
       "covers": "EXP-0001 to EXP-0050: 50 pre-registrations, 7 pre-registration amendments, 49 outcome records (48 completed, 1 aborted), 2 generation records and 1 baseline record",
       "entry_sha256": "3cc8de0f054e3faa9dc5482c65b50a9d480e888746d15b8f99ea71e2008b5b38"
+    },
+    {
+      "date": "2026-10-28",
+      "seq": 111,
+      "entries": 112,
+      "covers": "EXP-0001 to EXP-0050: 50 pre-registrations, 9 pre-registration amendments, 50 outcome records (49 completed, 1 aborted), 2 generation records and 1 baseline record",
+      "entry_sha256": "bac0b5d5104af734f753d9da2ea4b5eb3271e144690da96b1728ab1e35eb5c55"
     }
   ]
 }

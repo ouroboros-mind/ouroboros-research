@@ -19,11 +19,11 @@ Labels follow each experiment's pre-registered decision rule, not how useful the
 | **INFRASTRUCTURE** | Measurement, tooling or calibration work. Not a capability claim |
 | **PENDING** | Pre-registered, has not run. Not counted in the totals |
 
-## Totals (EXP-0001 to EXP-0049)
+## Totals (EXP-0001 to EXP-0050)
 
 | SUPPORTED | PARTIAL | NOT SUPPORTED | INCONCLUSIVE | INFRASTRUCTURE | Total |
 |---:|---:|---:|---:|---:|---:|
-| 14 | 8 | 17 | 1 | 9 | 49 |
+| 14 | 8 | 18 | 1 | 9 | 50 |
 
 Experiments vary widely in scope, and seeds within an experiment are not independent replications, so these counts are not a success rate.
 
@@ -83,6 +83,7 @@ Experiments vary widely in scope, and seeds within an experiment are not indepen
 | [EXP-0047](#exp-0047) | 2026-10-22 | Brain migration | NOT SUPPORTED |
 | [EXP-0048](#exp-0048) | 2026-10-23 | Skill regrowth after migration | PARTIAL |
 | [EXP-0049](#exp-0049) | 2026-10-24 | Validating the working frame | NOT SUPPORTED |
+| [EXP-0050](#exp-0050) | 2026-10-28 | Re-presenting the working frame | NOT SUPPORTED |
 
 ---
 
@@ -481,6 +482,14 @@ Goal: show that the persistent mind, not the model, is the individual.
 - **What changed.** The frame still costs the new model. Removing parts one at a time did not remove that cost. In a post hoc comparison, the skill added more inside the full frame where it grew than inside the validated one, which is consistent with frame and skill co-adaptation.
 - **Next question.** Proposed, owner decision pending: change the frame's placement, compression and memory policy, with the skill regrown inside each candidate frame. Cross-family skill regrowth waits for that.
 - **Full write-up.** [results/EXP-0049.md](results/EXP-0049.md)
+
+### EXP-0050
+2026-10-28 · NOT SUPPORTED
+- **Question.** On the new model, can a model-specific presentation of the mind's working frame, chosen before any skill is grown, plus a skill regrown from the mind's verified experience inside that presentation, beat the raw model with a separate contribution from both presentation and skill?
+- **Result.** Classified NOT SUPPORTED. Several presentations of the same stored mind were compared on 200 fresh development tasks without a skill. A frozen rule chose one, and its hash was published before the test. Practice inside the chosen presentation and the old frame produced one regrown skill from each. Both were refused in a separate 200-task quarantine check: the new-presentation skill scored 184 with the skill against 187 without, and the old-frame skill scored 158 against 157. Nothing was promoted and the stored mind stayed unchanged. On 800 fresh final tasks, raw scored 675 and its repeat 666. The old frame scored 585, its regrown skill 595, the old frame with EXP-0048's skill 714, the new presentation 734 and its regrown skill 744. Against the average raw reference, the combined new artifact gained 9.2 points and passed its gate. The presentation alone gained 18.6 points against the old frame, but that gate required both skills to be accepted in quarantine, so it did not pass. The regrown skill added 1.25 points inside the new presentation and passed its corrected comparison. On 200 unseen tasks across four hidden families, the combined artifact scored 141 against raw's 156 and failed. General capability checks, the 12-of-12 identity battery, the selection rule and the unchanged stored mind passed. EXP-0048's skill inside the old frame also passed its replication comparison. Four amendments were published as hash commitments before the code each fixed ran. A recorded-reply replay after a token-counter crash produced 0 verdict differences; a practice crash was aborted before any result was seen; a training path error stopped training before it began; and an incomplete final session was rerun fresh before any final result was written or read. A report-only comparison failed because its skill was never loaded; it was not used for selection or any gate. The first amendment, pre-registration and selection proofs confirmed after their governed work began. Amendments 2 through 4 confirmed before their work started. Its [public commitment](public-commitments/experiments/EXP-0050.commitment.json), amendments and selection were published before their governed work, and four revealed fields verify against the original commitment.
+- **What changed.** Re-presenting the same stored mind turned a 10.7-point cost into a 7.9-point gain on familiar task families. The regrown skill added little there, was not accepted in quarantine, and most of the loss on unseen families came with it. The migration claim is not supported.
+- **Next question.** Proposed, owner decision pending: why did the regrown skill hurt unseen families and fail quarantine while the presentation alone helped? Options include more varied experience, more than one training run per presentation, and checking unseen-family transfer before accepting any skill.
+- **Full write-up.** [results/EXP-0050.md](results/EXP-0050.md)
 
 ---
 

@@ -9,7 +9,7 @@
 
 <p align="center">
   Research Preview 0.1 ·
-  <a href="results/EXP-0049.md">Latest result</a> ·
+  <a href="results/EXP-0050.md">Latest result</a> ·
   <a href="results/EXP-0044.md">Growth result</a> ·
   <a href="EXPERIMENTS.md">Experiment ledger</a> ·
   <a href="ROADMAP.md">Roadmap</a> ·
@@ -88,7 +88,7 @@ Skill regrowth carried across this model change. The remaining problem is the mi
 <td colspan="2" valign="top">
 
 **EXP-0049 · Validating the working frame**<br>
-NOT SUPPORTED (first form) · latest result
+NOT SUPPORTED (first form)
 
 The frame's five parts were tested in balanced combinations before the final test. The frozen rule removed the procedure and thinking/resources line, but kept the goal, self line and memories. On 400 held-out tasks, the validated frame scored **311** against **340** for the raw model. Its regrown cache raised it to **344**. In post hoc, ungated comparisons against raw, the validated-frame result was a tie and the old full frame with the same cache scored **359**.
 
@@ -96,9 +96,21 @@ The frame still costs the new model. The post hoc comparison is consistent with 
 
 </td>
 </tr>
+<tr>
+<td colspan="2" valign="top">
+
+**EXP-0050 · Re-presenting the working frame**<br>
+NOT SUPPORTED · latest result
+
+On 800 fresh tasks, the new presentation scored **734** against a raw reference of **670.5**, and its regrown skill scored **744**. The skill added **+1.25 points** inside that presentation. But both regrown skills were refused in their 200-task quarantine checks. On 200 unseen tasks, the new presentation with its skill scored **141** against **156** for raw.
+
+The re-presented frame with its regrown skill beat the raw model on familiar task families but regressed on unseen ones. Because the skill was refused in quarantine, this is the trained artifact's result, not the mind's. [Write-up](results/EXP-0050.md)
+
+</td>
+</tr>
 </table>
 
-**Not yet shown:** transfer outside a trained territory (an earlier test was negative), a working frame that does not cost this model, skill regrowth across candidate frames, better breeders (generations that get better at producing successors), and recursive meta-improvement.
+**Not yet shown:** transfer outside the registered task families, a regrown skill that is accepted in quarantine and helps on unseen tasks, more than one training run per presentation, better breeders (generations that get better at producing successors), and recursive meta-improvement.
 
 <p align="center">
   <img src="assets/architecture.svg" alt="Conceptual architecture: a persistent Cognitive Kernel above a Mind ABI and replaceable model cortices, with a learning plane and a protected evaluation plane" width="100%">
@@ -108,20 +120,20 @@ The frame still costs the new model. The post hoc comparison is consistent with 
 
 | | |
 |---|---|
-| **Pre-registered experiments** | 49: 14 supported, 8 partial, 17 not supported, 1 inconclusive, 9 infrastructure ([ledger](EXPERIMENTS.md)) |
+| **Pre-registered experiments** | 50: 14 supported, 8 partial, 18 not supported, 1 inconclusive, 9 infrastructure ([ledger](EXPERIMENTS.md)) |
 | **Negative results** | All kept: every not-supported and inconclusive experiment is in the ledger with its outcome |
 | **Running estimate** | 58 percent after EXP-0047, down from 61 after EXP-0046. A subjective estimate, not a statistic ([odds log](ODDS.md)) |
-| **Latest result** | [EXP-0049](results/EXP-0049.md), validating the working frame: not supported. The validated frame still cost the new model and was not activated |
+| **Latest result** | [EXP-0050](results/EXP-0050.md), re-presenting the working frame: not supported. The familiar-family gain did not hold on unseen families, and both regrown skills were refused in quarantine |
 | **Cortex independence** | [EXP-0045](results/EXP-0045.md), one mind across two model families, first form: supported |
 | **Strongest growth result** | [EXP-0044](results/EXP-0044.md), gated multi-round growth: supported in 3 of 3 lineages |
 | **Built and first tested** | Mind ABI, Experience Bus, portable genome format, Cognitive Kernel v0 (tested together in EXP-0045) |
-| **Public commitments** | Ledger checkpoints through 2026-10-26; pre-run commitments: [EXP-0046](public-commitments/experiments/EXP-0046.commitment.json), [EXP-0047](public-commitments/experiments/EXP-0047.commitment.json), [EXP-0048](public-commitments/experiments/EXP-0048.commitment.json), [EXP-0049](public-commitments/experiments/EXP-0049.commitment.json) and [EXP-0050](public-commitments/experiments/EXP-0050.commitment.json), with EXP-0049 and EXP-0050 amendments and selections also published before their governed work. From EXP-0050 on, each is submitted to OpenTimestamps; once a proof confirms, it anchors that commitment to the Bitcoin blockchain as a tamper-evident record ([how it works](#anchored-in-bitcoin)) |
-| **Next question** | Can a different presentation of the frame work with a skill regrown inside that frame? Proposed; owner decision pending |
+| **Public commitments** | Ledger checkpoint [entry 111](public-commitments/ledger-checkpoints.json), with 112 entries, published with this result; its OpenTimestamps proof is pending. [EXP-0050's reveal](public-commitments/experiments/EXP-0050.reveal.json) verifies four fields against its original commitment ([how it works](#anchored-in-bitcoin)) |
+| **Next question** | Why did the regrown skill hurt unseen families and fail quarantine while the presentation alone helped? Proposed; owner decision pending |
 | **What we do not claim** | Not AGI. Not unrestricted self-improvement. We have no evidence that Ouroboros is sentient, and we make no such claim. |
 
 ### Known limits
 
-- **Model-specific validation.** In EXP-0049, a validated frame still cost Qwen3.8-27B. Its regrown cache helped inside that frame, but did not beat the raw model.
+- **Model-specific presentation and skills.** In EXP-0050, a new presentation helped on familiar task families, but its regrown skill was refused in quarantine and the combined artifact regressed on unseen families.
 - **Narrow and short.** The growth result covers two rounds, inside one internally generated territory of programming tasks.
 - **Transfer unmeasured.** Gains outside the trained territory were not measured, and an earlier transfer test was negative ([EXP-0041](EXPERIMENTS.md#exp-0041)).
 - **Forgetting was measured, not zero.** It stayed below 0.01 on the forgetting probe for every accepted candidate. That does not rule out forgetting outside the probe.
@@ -156,16 +168,16 @@ Most of these ideas exist in earlier work ([PRIOR_ART.md](PRIOR_ART.md)), and Ou
 | Hypothesis | Status |
 |---|---|
 | A persistent individual with its own history and lineage | Partial: memory over a twelve-day synthetic run passed its gate; kernel built |
-| A replaceable cortex: behavior and capability survive a model swap | Partial: identity, memory, procedures and calibration survived a swap between two families (EXP-0045). EXP-0049 found that a validated working frame still cost the new model. In a post hoc comparison, the earlier full frame and its regrown cache beat raw |
+| A replaceable cortex: behavior and capability survive a model swap | Partial: identity, memory, procedures and calibration survived a swap between two families (EXP-0045). EXP-0050 found that a re-presented frame helped on familiar families, but the combined artifact regressed on unseen ones |
 | Verified learning: changes are kept only when held-out checks say so | In use on one model (author-reported) |
 | Capability compilation: recurring reasoning becomes cheaper skills | Partial: narrow skills learned; transfer not shown |
 | Multi-timescale learning with different safeguards per speed | Partial: memory and adapter tiers exercised; slower tiers not started |
 | Protected evaluation outside the learning system's reach | In use (author-reported; not externally audited) |
 | Local deployment on hardware an individual owns | Long-term direction: no fixed hardware target; full per-generation resource records start with EXP-0046 |
 
-## Latest result: EXP-0049
+## Latest result: EXP-0050
 
-Classified NOT SUPPORTED. A balanced test of five frame parts removed two under a frozen rule, but the validated frame scored 311 against 340 of 400 for the raw model. Its regrown cache scored 344. In post hoc, ungated comparisons against raw, that was a tie and the old full frame with the cache scored 359. The selection rule, stored mind, general capability checks and 12-of-12 identity battery passed. The candidate was not activated. Full write-up: [results/EXP-0049.md](results/EXP-0049.md).
+Classified NOT SUPPORTED. A frozen rule chose a presentation before the test. On 800 fresh tasks, it scored 734 against a raw reference of 670.5, and its regrown skill scored 744. Both regrown skills were refused in quarantine. On 200 unseen tasks, the combined artifact scored 141 against 156 for raw. General capability checks, the 12-of-12 identity battery, the selection rule and the unchanged stored mind passed. The re-presented frame with its regrown skill beat the raw model on familiar task families but regressed on unseen ones; because the skill was refused in quarantine, this is the trained artifact's result, not the mind's. The analysis program omitted that required prefix from its printed label, so the published label follows the registered text. EXP-0048 is not a full migration. The mind is durable. The cortex is replaceable. Skills and interfaces are translated or regrown for the cortex they inhabit. Full write-up: [results/EXP-0050.md](results/EXP-0050.md).
 
 ## Cortex independence: EXP-0045
 
@@ -237,6 +249,7 @@ Full write-up: [results/EXP-0044.md](results/EXP-0044.md).
 | Brain migration | Not supported in a first small test | [EXP-0047](results/EXP-0047.md): continuity and rollback passed, but capability did not; harmful cache regrowth was refused |
 | Skill regrowth after migration | Partial in a first small test | [EXP-0048](results/EXP-0048.md): regrown cache beat the stronger model alone, but the mind's frame-cost gate failed |
 | Validated working frame | Not supported in a first small test | [EXP-0049](results/EXP-0049.md): the selected frame still cost the new model and was not activated |
+| Re-presented working frame and regrown skill | Not supported | [EXP-0050](results/EXP-0050.md): the presentation helped on familiar families, but the combined artifact regressed on unseen families and both skills were refused in quarantine |
 | Consumer-hardware mind | Long-term research direction | No fixed hardware target; full per-generation resource records start with EXP-0046 |
 | Recursive meta-improvement | Moonshot | Not started |
 | Frontier-like local AI | Moonshot | Not started |
@@ -263,9 +276,10 @@ From EXP-0050 on, every public commitment, and from 2026-10-26 every ledger chec
 | EXP-0050 amendment 2 | 973246 (2026-10-26 14:00), confirmed before its work started |
 | EXP-0050 amendment 3 | 973311 (2026-10-26 23:53), confirmed before its work started |
 | EXP-0050 amendment 4 | 973414 (2026-10-27 15:14), confirmed before its work started |
-| Ledger checkpoint at entry 108, covering EXP-0001 to EXP-0050 | 973290 (2026-10-26 21:04) |
+| [Ledger checkpoint at entry 108](public-commitments/checkpoint-history/ledger-checkpoints.seq108.json), covering EXP-0001 to EXP-0050 | 973290 (2026-10-26 21:04) |
+| [Ledger checkpoint at entry 111](public-commitments/ledger-checkpoints.json), covering EXP-0001 to EXP-0050 | [Proof pending](public-commitments/ledger-checkpoints.json.ots) |
 
-The first three proofs were submitted before the work they govern and confirmed after that work had begun, so for them the OpenTimestamps calendar receipt and the GitHub push time, not the block, show that they came first. From amendment 2 on, the work a commitment governs starts only after its block confirms.
+The first three proofs were submitted before the work they govern and confirmed after that work had begun, so for them the OpenTimestamps calendar receipt and the GitHub push time, not the block, show that they came first. From amendment 2 on, the work a commitment governs starts only after its block confirms. The entry-111 checkpoint proof is pending and is not yet confirmed in a Bitcoin block.
 
 Each proof sits beside its file as `<name>.ots`. To check every proof against the Bitcoin block headers reported by two public block explorers, without running a node: `python3 public-commitments/anchors.py check public-commitments/experiments/*.ots public-commitments/ledger-checkpoints.json.ots`.
 
