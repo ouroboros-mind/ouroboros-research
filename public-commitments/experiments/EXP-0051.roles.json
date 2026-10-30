@@ -1,0 +1,7 @@
+{
+ "beacon_rule": "the hash of the Bitcoin block at height h+1, where h is the lowest block height among confirmed Bitcoin attestations of this file's OpenTimestamps proof",
+ "experiment_id": "EXP-0051",
+ "family_roles_sha256": "327859c8fd8cce7feee014782aecc9d501e1d69084d7f67c7dd2cb689e9bbea5",
+ "kind": "role_commitment",
+ "role_commitment": "f6a7c670b4d94159601f2fa78cd536060ff96818f34d7cbf916d884cfa2bde07"
+}
