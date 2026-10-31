@@ -1,0 +1,9 @@
+{
+  "format": "ouroboros-seed-commitment-v1",
+  "experiment_id": "EXP-0051",
+  "seed_commitment": "5753cf7f6bb9a9ac726de90a9747fd05b4dd4a37a42439630fd5561cb038321a",
+  "seal_sha256": "d0f66939ef5c53bbc7566814ee37c3c9c335d93069c039c91de5e331af2910e2",
+  "construction": "seed_commitment = sha256(salt || seed); salt and seed are revealed after the test",
+  "committed_at": "2026-10-31T20:08:42+00:00",
+  "note": "commits to the held-out item seed before the seed is released to the machine that runs the test"
+}
