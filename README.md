@@ -9,7 +9,7 @@
 
 <p align="center">
   Research Preview 0.1 ·
-  <a href="results/EXP-0050.md">Latest result</a> ·
+  <a href="results/EXP-0051.md">Latest result</a> ·
   <a href="results/EXP-0044.md">Growth result</a> ·
   <a href="EXPERIMENTS.md">Experiment ledger</a> ·
   <a href="ROADMAP.md">Roadmap</a> ·
@@ -100,11 +100,23 @@ The frame still costs the new model. The post hoc comparison is consistent with 
 <td colspan="2" valign="top">
 
 **EXP-0050 · Re-presenting the working frame**<br>
-NOT SUPPORTED · latest result
+NOT SUPPORTED
 
 On 800 fresh tasks, the new presentation scored **734** against a raw reference of **670.5**, and its regrown skill scored **744**. The skill added **+1.25 points** inside that presentation. But both regrown skills were refused in their 200-task quarantine checks. On 200 unseen tasks, the new presentation with its skill scored **141** against **156** for raw.
 
 The re-presented frame with its regrown skill beat the raw model on familiar task families but regressed on unseen ones. Because the skill was refused in quarantine, this is the trained artifact's result, not the mind's. [Write-up](results/EXP-0050.md)
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+**EXP-0051 · Regrowing the skill on a second model**<br>
+INCONCLUSIVE · latest result
+
+On GLM-4.7-Flash, calibration, a presentation screen and a practice harvest ran. The two nested training sets had **258 examples each**, but their token counts could not be matched with the allowed swaps. The run stopped before training by its own pre-registered rule.
+
+No adapter was trained, no final-test item was scored and nothing was promoted. The stored mind is unchanged, and the final-test seed stays sealed and unreleased. [Write-up](results/EXP-0051.md)
 
 </td>
 </tr>
@@ -120,15 +132,15 @@ The re-presented frame with its regrown skill beat the raw model on familiar tas
 
 | | |
 |---|---|
-| **Pre-registered experiments** | 50: 14 supported, 8 partial, 18 not supported, 1 inconclusive, 9 infrastructure ([ledger](EXPERIMENTS.md)) |
+| **Pre-registered experiments** | 51: 14 supported, 8 partial, 18 not supported, 2 inconclusive, 9 infrastructure ([ledger](EXPERIMENTS.md)) |
 | **Negative results** | All kept: every not-supported and inconclusive experiment is in the ledger with its outcome |
 | **Running estimate** | 58 percent after EXP-0047, down from 61 after EXP-0046. A subjective estimate, not a statistic ([odds log](ODDS.md)) |
-| **Latest result** | [EXP-0050](results/EXP-0050.md), re-presenting the working frame: not supported. The familiar-family gain did not hold on unseen families, and both regrown skills were refused in quarantine |
+| **Latest result** | [EXP-0051](results/EXP-0051.md), regrowing the skill on a second model: inconclusive. The pre-registered rule stopped the run before training because the training dose could not be matched. No final-test item was scored |
 | **Cortex independence** | [EXP-0045](results/EXP-0045.md), one mind across two model families, first form: supported |
 | **Strongest growth result** | [EXP-0044](results/EXP-0044.md), gated multi-round growth: supported in 3 of 3 lineages |
 | **Built and first tested** | Mind ABI, Experience Bus, portable genome format, Cognitive Kernel v0 (tested together in EXP-0045) |
-| **Public commitments** | Ledger checkpoint [entry 111](public-commitments/ledger-checkpoints.json), with 112 entries, published with this result; its OpenTimestamps proof is confirmed in Bitcoin block 973554. [EXP-0050's reveal](public-commitments/experiments/EXP-0050.reveal.json) verifies four fields against its original commitment ([how it works](#anchored-in-bitcoin)) |
-| **Next question** | Why did the regrown skill hurt unseen families and fail quarantine while the presentation alone helped on familiar families? Proposed; owner decision pending |
+| **Public commitments** | Ledger checkpoint [entry 116](public-commitments/ledger-checkpoints.json), with 117 entries, covering EXP-0001 to EXP-0051; its OpenTimestamps proof is pending. EXP-0051's role-draw v2, selection and final-test seed commitments are confirmed in Bitcoin blocks; the author reports the work each governs began after that block, which the proofs alone cannot show. Its three amendments were not published as separate commitments before their governed work ([write-up](results/EXP-0051.md), [how it works](#anchored-in-bitcoin)) |
+| **Next question** | Not yet announced |
 | **What we do not claim** | Not AGI. Not unrestricted self-improvement. We have no evidence that Ouroboros is sentient, and we make no such claim. |
 
 ### Known limits
@@ -175,9 +187,9 @@ Most of these ideas exist in earlier work ([PRIOR_ART.md](PRIOR_ART.md)), and Ou
 | Protected evaluation outside the learning system's reach | In use (author-reported; not externally audited) |
 | Local deployment on hardware an individual owns | Long-term direction: no fixed hardware target; full per-generation resource records start with EXP-0046 |
 
-## Latest result: EXP-0050
+## Latest result: EXP-0051
 
-Classified NOT SUPPORTED. A frozen rule chose a presentation before the test. On 800 fresh tasks, it scored 734 against a raw reference of 670.5, and its regrown skill scored 744. Both regrown skills were refused in quarantine. On 200 unseen tasks, the combined artifact scored 141 against 156 for raw. General capability checks, the 12-of-12 identity battery, the selection rule and the unchanged stored mind passed. The re-presented frame with its regrown skill beat the raw model on familiar task families but regressed on unseen ones; because the skill was refused in quarantine, this is the trained artifact's result, not the mind's. The analysis program omitted that required prefix from its printed label, so the published label follows the registered text. EXP-0048 is not a full migration. The mind is durable. The cortex is replaceable. Skills and interfaces are translated or regrown for the cortex they inhabit. Full write-up: [results/EXP-0050.md](results/EXP-0050.md).
+Classified INCONCLUSIVE: stopped before training by its own pre-registered rule. On GLM-4.7-Flash, calibration, a presentation screen with a published selection hash, and a practice harvest ran. The selected presentation produced 615 verified successes and raw produced 468 across 1080 episodes per arm. These are descriptive counts, not a registered test. The two nested training sets had 258 examples each, but one carried about 20% fewer tokens. After 52 allowed swaps, the gap was still 18% and no remaining swap reduced it. The owner kept the registered stop rule. No adapter was trained, no final-test item was scored and nothing was promoted. The stored mind is unchanged and the final-test seed stays sealed and unreleased. Three amendments were recorded in the private ledger, but were not published as separate commitments before their governed work. The lesson is to match training dose on tokens and dry-run the planner on real practice data before the training window. Next question: not yet announced. Full write-up: [results/EXP-0051.md](results/EXP-0051.md).
 
 ## Cortex independence: EXP-0045
 
@@ -250,6 +262,7 @@ Full write-up: [results/EXP-0044.md](results/EXP-0044.md).
 | Skill regrowth after migration | Partial in a first small test | [EXP-0048](results/EXP-0048.md): regrown cache beat the stronger model alone, but the mind's frame-cost gate failed |
 | Validated working frame | Not supported in a first small test | [EXP-0049](results/EXP-0049.md): the selected frame still cost the new model and was not activated |
 | Re-presented working frame and regrown skill | Not supported | [EXP-0050](results/EXP-0050.md): the presentation helped on familiar families, but the combined artifact regressed on unseen families and both skills were refused in quarantine |
+| Skill regrowth on a second model | Inconclusive | [EXP-0051](results/EXP-0051.md): the training dose could not be matched; the pre-registered rule stopped the run before training or final testing |
 | Consumer-hardware mind | Long-term research direction | No fixed hardware target; full per-generation resource records start with EXP-0046 |
 | Recursive meta-improvement | Moonshot | Not started |
 | Frontier-like local AI | Moonshot | Not started |
@@ -277,7 +290,11 @@ From EXP-0050 on, every public commitment, and from 2026-10-26 every ledger chec
 | EXP-0050 amendment 3 | 973311 (2026-10-26 23:53), confirmed before its work started |
 | EXP-0050 amendment 4 | 973414 (2026-10-27 15:14), confirmed before its work started |
 | [Ledger checkpoint at entry 108](public-commitments/checkpoint-history/ledger-checkpoints.seq108.json), covering EXP-0001 to EXP-0050 | 973290 (2026-10-26 21:04) |
-| [Ledger checkpoint at entry 111](public-commitments/ledger-checkpoints.json), covering EXP-0001 to EXP-0050 | 973554 (2026-10-28 12:48) |
+| [Ledger checkpoint at entry 111](public-commitments/checkpoint-history/ledger-checkpoints.seq111.json), covering EXP-0001 to EXP-0050 | 973554 (2026-10-28 12:48) |
+| EXP-0051 role-draw commitment v2 | 973827 (2026-10-30 13:35); author reports its work started later |
+| EXP-0051 selection | 974022 (2026-10-31 20:25); author reports its work started later |
+| EXP-0051 final-test seed | 974022 (2026-10-31 20:25); the final test never ran |
+| [Ledger checkpoint at entry 116](public-commitments/ledger-checkpoints.json), covering EXP-0001 to EXP-0051 | [Proof pending](public-commitments/ledger-checkpoints.json.ots) |
 
 The first three proofs were submitted before the work they govern and confirmed after that work had begun, so for them the OpenTimestamps calendar receipt and the GitHub push time, not the block, show that they came first. From amendment 2 on, the work a commitment governs starts only after its block confirms.
 
@@ -287,12 +304,12 @@ An anchor shows that a hash existed no later than the time its block was mined. 
 
 ## What you can and cannot verify
 
-The raw data, task sets, training procedure, code and the experiment ledger itself are private. Numbers on these pages are copied from that author-maintained ledger. Contamination checks and ledger integrity are author-reported. Pre-registration timing is author-reported for EXP-0001 to EXP-0045; from EXP-0046 on, each pre-registration is committed here by hash before it runs.
+The raw data, task sets, training procedure, code and the experiment ledger itself are private. Numbers on these pages are copied from that author-maintained ledger. Contamination checks and ledger integrity are author-reported. Pre-registration timing is author-reported for EXP-0001 to EXP-0045; from EXP-0046 on, each pre-registration is committed here by hash before it runs. EXP-0051 is the exception: it had no public pre-registration commitment, so its pre-registration timing is author-reported; only its role draw, a hash of its selection and its final-test seed were committed publicly.
 
 | You can | You cannot |
 |---|---|
 | Check internal consistency, for example that the EXP-0044 p-values recompute from the published gained and lost task counts | Reproduce any experiment from this repository |
-| From EXP-0046 on, check that a revealed pre-registration field matches a commitment published before the run ([public commitments](public-commitments/README.md)) | Verify the pre-run timing of EXP-0001 to EXP-0045, which predate the commitments |
+| From EXP-0046 on, check that a revealed pre-registration field matches a commitment published before the run ([public commitments](public-commitments/README.md)) | Verify the pre-run timing of EXP-0001 to EXP-0045, which predate the commitments, or of EXP-0051, which had no pre-registration commitment |
 | See every experiment, including negative and inconclusive ones | Inspect the task sets, the training procedure or raw results |
 | For each confirmed proof from EXP-0050 on, check that the corresponding commitment file or ledger checkpoint existed no later than the confirming Bitcoin block | Read what an anchored hash commits to before its fields are revealed |
 | Test the claims independently on your own tasks and models | Rule out a trial run before a commitment; the author controls both the ledger and the timing |

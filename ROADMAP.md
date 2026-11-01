@@ -41,7 +41,7 @@ The public roadmap is organized around research questions, not features. Each st
 - **Partial.** EXP-0048 regrew a cache only from the new model's verified passes. It lifted the mind's frame from 293 to 351 of 400 held-out tasks and beat the raw model's 326. The frame without the cache scored 293, an 8.25-point cost that failed the frame-cost gate.
 - **Not supported.** EXP-0049 selected a model-specific frame by a frozen rule, but it scored 311 against 340 of 400 for raw. Its cache reached 344. In post hoc, ungated comparisons against raw, that result was a tie and the old full frame with the same cache reached 359. The candidate was not activated.
 - **Not supported.** EXP-0050 re-presented the same stored mind through a frozen selection rule. On familiar task families, the presentation scored above raw and its regrown skill added a small gain. Both regrown skills were refused in quarantine, and the combined artifact regressed on unseen families.
-- **Next:** proposed, owner decision pending: find why the regrown skill hurt unseen families and failed quarantine while the presentation alone helped on familiar families. Test more varied experience, more than one training run per presentation, and unseen-family transfer before accepting a skill.
+- **Latest result, inconclusive.** [EXP-0051](results/EXP-0051.md) stopped before training by its own pre-registered rule because the training dose could not be matched. No final-test item was scored, nothing was promoted and the stored mind is unchanged. Next question: not yet announced.
 
 ## Stage F: Intelligence density
 
@@ -70,7 +70,7 @@ The public roadmap is organized around research questions, not features. Each st
 5. EXP-0048: regrow and validate a skill from the new model's own verified experience (done: partial; skill regrowth passed, frame-cost gate failed).
 6. EXP-0049: find and validate the costly parts of the working frame per model (done: not supported; the selected frame still cost the new model).
 7. EXP-0050: re-present the frame and regrow skills inside each presentation (done: not supported; the combined artifact regressed on unseen families and both skills were refused in quarantine).
-8. Explain the quarantine refusal and unseen-family regression before another skill is accepted (proposed; owner decision pending).
+8. EXP-0051: regrow the skill on a second model (inconclusive; the pre-registered rule stopped the run before training because the training dose could not be matched). Next question: not yet announced.
 
 ## Planned demonstrations
 

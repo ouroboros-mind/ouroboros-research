@@ -2,7 +2,7 @@
 
 This is the public summary of the Ouroboros experiment ledger. The private ledger is append-only and hash-chained, and every experiment is pre-registered before it runs. Rejected, null and aborted runs stay in the record. Negative results are evidence.
 
-The ledger itself, the task sets, the training procedure and raw results are private. Pre-registration timing and ledger integrity are author-reported and cannot be verified from this repository. The author reports that, from EXP-0046 on, pre-registrations were committed by hash before they ran; from EXP-0050 on, those commitments, and from 2026-10-26 the ledger checkpoints, are also submitted to OpenTimestamps. Once a proof confirms in a Bitcoin block, it makes the corresponding record tamper-evident ([how it works](README.md#anchored-in-bitcoin)). See [what you can and cannot verify](README.md#what-you-can-and-cannot-verify).
+The ledger itself, the task sets, the training procedure and raw results are private. Pre-registration timing and ledger integrity are author-reported and cannot be verified from this repository. The author reports that, from EXP-0046 on, pre-registrations were committed by hash before they ran, except EXP-0051's; from EXP-0050 on, those commitments, and from 2026-10-26 the ledger checkpoints, are also submitted to OpenTimestamps. Once a proof confirms in a Bitcoin block, it makes the corresponding record tamper-evident ([how it works](README.md#anchored-in-bitcoin)). See [what you can and cannot verify](README.md#what-you-can-and-cannot-verify).
 
 This page lists **every** experiment, in order, including the failures. Where a protocol touches material under IP review, the entry gives a safe summary and says so. Dates are pre-registration dates (UTC).
 
@@ -19,11 +19,11 @@ Labels follow each experiment's pre-registered decision rule, not how useful the
 | **INFRASTRUCTURE** | Measurement, tooling or calibration work. Not a capability claim |
 | **PENDING** | Pre-registered, has not run. Not counted in the totals |
 
-## Totals (EXP-0001 to EXP-0050)
+## Totals (EXP-0001 to EXP-0051)
 
 | SUPPORTED | PARTIAL | NOT SUPPORTED | INCONCLUSIVE | INFRASTRUCTURE | Total |
 |---:|---:|---:|---:|---:|---:|
-| 14 | 8 | 18 | 1 | 9 | 50 |
+| 14 | 8 | 18 | 2 | 9 | 51 |
 
 Experiments vary widely in scope, and seeds within an experiment are not independent replications, so these counts are not a success rate.
 
@@ -84,6 +84,7 @@ Experiments vary widely in scope, and seeds within an experiment are not indepen
 | [EXP-0048](#exp-0048) | 2026-10-23 | Skill regrowth after migration | PARTIAL |
 | [EXP-0049](#exp-0049) | 2026-10-24 | Validating the working frame | NOT SUPPORTED |
 | [EXP-0050](#exp-0050) | 2026-10-28 | Re-presenting the working frame | NOT SUPPORTED |
+| [EXP-0051](#exp-0051) | 2026-10-31 | Regrowing the skill on a second model | INCONCLUSIVE |
 
 ---
 
@@ -491,6 +492,14 @@ Goal: show that the persistent mind, not the model, is the individual.
 - **Next question.** Proposed, owner decision pending: why did the regrown skill hurt unseen families and fail quarantine while the presentation alone helped on familiar families? Options include more varied experience, more than one training run per presentation, and checking unseen-family transfer before accepting any skill.
 - **Full write-up.** [results/EXP-0050.md](results/EXP-0050.md)
 
+### EXP-0051
+2026-10-31 · INCONCLUSIVE
+- **Question.** After moving the stored mind to a second model, can a skill regrown from the mind's own verified practice, inside a presentation chosen before any skill is grown, beat the raw model on familiar task families without a registered loss on unseen families?
+- **Result.** Classified INCONCLUSIVE: stopped before training by its own pre-registered rule. On GLM-4.7-Flash, calibration, a presentation screen with a published selection hash, and a practice harvest ran. Each arm had 1080 episodes. The selected presentation produced 615 verified successes and raw produced 468; these are descriptive counts, not a registered test. The harvest yielded 86 usable examples per family against 160 planned. The two nested training sets had 258 examples each, but one carried about 20% fewer tokens. After 52 allowed swaps, the gap was still 18% and no remaining swap reduced it. The owner kept the registered stop rule. No adapter was trained, no final-test item was scored, nothing was promoted and the stored mind is unchanged. The final-test seed stays sealed and unreleased. Three amendments were made before any training or final-test data. They are recorded in the private ledger and fixed by checkpoint 116, but unlike EXP-0050's amendments they were not published as separate commitments before their governed work.
+- **What changed.** Equal example counts did not match the training dose. Match on tokens and dry-run the training-set planner on real practice data before the training window.
+- **Next question.** Not yet announced.
+- **Full write-up.** [results/EXP-0051.md](results/EXP-0051.md)
+
 ---
 
 ## How to read this ledger
@@ -498,4 +507,4 @@ Goal: show that the persistent mind, not the model, is the individual.
 - One-line results compress pre-registered decisions. Each result states the decision first; favorable details underneath a negative decision do not change its label.
 - Benchmark contents, private task sets, prompts, datasets, adapter weights and training settings are not published.
 - New entries are appended at the bottom and the totals are updated. Old entries are never rewritten. Corrections are added as dated notes.
-- From EXP-0046 on, each pre-registration is committed by hash in [public-commitments/](public-commitments/README.md) before it runs.
+- From EXP-0046 on, each pre-registration is committed by hash in [public-commitments/](public-commitments/README.md) before it runs. EXP-0051 is the exception: it had no public pre-registration commitment, so its pre-registration timing is author-reported; only its role draw, a hash of its selection and its final-test seed were committed publicly.
