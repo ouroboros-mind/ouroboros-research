@@ -139,7 +139,7 @@ No adapter was trained, no final-test item was scored and nothing was promoted. 
 | **Cortex independence** | [EXP-0045](results/EXP-0045.md), one mind across two model families, first form: supported |
 | **Strongest growth result** | [EXP-0044](results/EXP-0044.md), gated multi-round growth: supported in 3 of 3 lineages |
 | **Built and first tested** | Mind ABI, Experience Bus, portable genome format, Cognitive Kernel v0 (tested together in EXP-0045) |
-| **Public commitments** | Ledger checkpoint [entry 116](public-commitments/ledger-checkpoints.json), with 117 entries, covering EXP-0001 to EXP-0051; its OpenTimestamps proof is pending. EXP-0051's role-draw v2, selection and final-test seed commitments are confirmed in Bitcoin blocks; the author reports the work each governs began after that block, which the proofs alone cannot show. Its three amendments were not published as separate commitments before their governed work ([write-up](results/EXP-0051.md), [how it works](#anchored-in-bitcoin)) |
+| **Public commitments** | Ledger checkpoint [entry 116](public-commitments/ledger-checkpoints.json), with 117 entries, covering EXP-0001 to EXP-0051; its OpenTimestamps proof is confirmed in Bitcoin block 974145. EXP-0051's role-draw v2, selection and final-test seed commitments are confirmed in Bitcoin blocks; the author reports the work each governs began after that block, which the proofs alone cannot show. Its three amendments were not published as separate commitments before their governed work ([write-up](results/EXP-0051.md), [how it works](#anchored-in-bitcoin)) |
 | **Next question** | Not yet announced |
 | **What we do not claim** | Not AGI. Not unrestricted self-improvement. We have no evidence that Ouroboros is sentient, and we make no such claim. |
 
@@ -294,7 +294,7 @@ From EXP-0050 on, every public commitment, and from 2026-10-26 every ledger chec
 | EXP-0051 role-draw commitment v2 | 973827 (2026-10-30 13:35); author reports its work started later |
 | EXP-0051 selection | 974022 (2026-10-31 20:25); author reports its work started later |
 | EXP-0051 final-test seed | 974022 (2026-10-31 20:25); the final test never ran |
-| [Ledger checkpoint at entry 116](public-commitments/ledger-checkpoints.json), covering EXP-0001 to EXP-0051 | [Proof pending](public-commitments/ledger-checkpoints.json.ots) |
+| [Ledger checkpoint at entry 116](public-commitments/ledger-checkpoints.json), covering EXP-0001 to EXP-0051 | 974145 (2026-11-01 16:08) |
 
 The first three proofs were submitted before the work they govern and confirmed after that work had begun, so for them the OpenTimestamps calendar receipt and the GitHub push time, not the block, show that they came first. From amendment 2 on, the work a commitment governs starts only after its block confirms.
 
