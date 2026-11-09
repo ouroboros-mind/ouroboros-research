@@ -1,0 +1,27 @@
+{
+  "format": "ouroboros-commitment-v1",
+  "experiment_id": "EXP-0052.amendment3",
+  "committed_at": "2026-11-09T14:50:22+00:00",
+  "fields": [
+    "artifact_hashes",
+    "changed_component",
+    "checkpoint_hashes",
+    "created_at",
+    "dataset_hashes",
+    "decision",
+    "evaluation_suites",
+    "experiment_id",
+    "hypothesis",
+    "notes",
+    "parent_generation",
+    "reason",
+    "resource_budget",
+    "result",
+    "runtime_versions",
+    "schema_version",
+    "status",
+    "stop_condition",
+    "training_recipe"
+  ],
+  "merkle_root": "1a3ccb7c4bceae1517ea522072f997c951b5bd2006a01927d73598b9a71e74d9"
+}
